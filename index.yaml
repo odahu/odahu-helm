@@ -3,9 +3,9 @@ entries:
   k8s-gke-saa:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-18T09:57:35.217974428Z"
+    created: "2019-11-18T09:58:58.190140669Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
-    digest: e4a8a4c0cbcb0c36f95365c4f825fc135b75ff389506a830b9ed8cddc2f78366
+    digest: aeacbff59a53a387abe27a5415cb6be2623596d98318ef3e611b6e20e0286c3b
     maintainers:
     - email: suslov.dimitriy@gmail.com
       name: Dmitrii Suslov
@@ -25,9 +25,9 @@ entries:
     version: 1.0.0-rc27
   knative:
   - appVersion: v0.6.1
-    created: "2019-11-18T09:57:35.219001533Z"
+    created: "2019-11-18T09:58:58.191155656Z"
     description: Knative chart
-    digest: c200c3d5464d683c453388e638f66442195d63902e50eaa9a284f93a1f945afb
+    digest: d5830240f3dab0fb83c66ef7862fe499d90c5118d07ac4073725996f5ef8ddda
     keywords:
     - ML
     maintainers:
@@ -49,9 +49,9 @@ entries:
     version: 1.0.0-rc27
   monitoring:
   - appVersion: 1.7.1
-    created: "2019-11-18T09:57:35.235383026Z"
+    created: "2019-11-18T09:58:58.210906429Z"
     description: odahuflow monitoring
-    digest: 4a36062cfe757715385b6746ec61bf9bd8e57283962cc946f593b03034b17db0
+    digest: 72918d5bf6a53b88529e1ccd6150b9721529c19bd0634e9aa9de56b6c74b42d8
     keywords:
     - ML
     maintainers:
@@ -73,9 +73,9 @@ entries:
     version: 1.0.0-rc27
   tekton:
   - appVersion: v0.6.1
-    created: "2019-11-18T09:57:35.235988393Z"
+    created: "2019-11-18T09:58:58.211630421Z"
     description: Tekton chart
-    digest: c5e75de14567ab74416064d8eab355c30e6fd47423f4d2431259dfd7645aa5f0
+    digest: b9e5c8b28520358e889818e950ad9b276b560759a3f5e11c49037a5f774099e5
     keywords:
     - cicd
     - tekton
@@ -96,4 +96,4 @@ entries:
     urls:
     - tekton/tekton-1.0.0-rc27.tgz
     version: 1.0.0-rc27
-generated: "2019-11-18T09:57:35.217323092Z"
+generated: "2019-11-18T09:58:58.189494585Z"
