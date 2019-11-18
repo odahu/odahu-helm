@@ -3,7 +3,7 @@ entries:
   k8s-gke-saa:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-18T09:58:58.190140669Z"
+    created: "2019-11-18T10:21:19.294434988Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: aeacbff59a53a387abe27a5415cb6be2623596d98318ef3e611b6e20e0286c3b
     maintainers:
@@ -25,7 +25,7 @@ entries:
     version: 1.0.0-rc27
   knative:
   - appVersion: v0.6.1
-    created: "2019-11-18T09:58:58.191155656Z"
+    created: "2019-11-18T10:21:19.295345779Z"
     description: Knative chart
     digest: d5830240f3dab0fb83c66ef7862fe499d90c5118d07ac4073725996f5ef8ddda
     keywords:
@@ -49,7 +49,7 @@ entries:
     version: 1.0.0-rc27
   monitoring:
   - appVersion: 1.7.1
-    created: "2019-11-18T09:58:58.210906429Z"
+    created: "2019-11-18T10:21:19.310304043Z"
     description: odahuflow monitoring
     digest: 72918d5bf6a53b88529e1ccd6150b9721529c19bd0634e9aa9de56b6c74b42d8
     keywords:
@@ -71,9 +71,34 @@ entries:
     urls:
     - monitoring/monitoring-1.0.0-rc27.tgz
     version: 1.0.0-rc27
+  odahuflow-mlflow:
+  - appVersion: 0.0.1
+    created: "2019-11-18T10:21:19.310776954Z"
+    description: MLFlow integration for odahuflow platform
+    digest: c32551f502195f400f77cb81f484ebf52ee6d3c380f04d1c4f704e801d5b7c4d
+    keywords:
+    - ML
+    - odahuflow
+    maintainers:
+    - email: suslov.dimitriy@gmail.com
+      name: Dmitrii Suslov
+    - email: karbyshevds@gmail.com
+      name: Dmitriy Karbyshev
+    - email: maxkochubey@gmail.com
+      name: Max Kochubey
+    - email: vlad.tokarev.94@gmail.com
+      name: Vlad Tokarev
+    - email: kirill@makhonin.biz
+      name: Kirill Makhonin
+    - email: mcdkr@yandex.ru
+      name: Vitalik Solodilov
+    name: odahuflow-mlflow
+    urls:
+    - odahuflow-mlflow/odahuflow-mlflow-1.0.0-rc6.tgz
+    version: 1.0.0-rc6
   tekton:
   - appVersion: v0.6.1
-    created: "2019-11-18T09:58:58.211630421Z"
+    created: "2019-11-18T10:21:19.311375201Z"
     description: Tekton chart
     digest: b9e5c8b28520358e889818e950ad9b276b560759a3f5e11c49037a5f774099e5
     keywords:
@@ -96,4 +121,4 @@ entries:
     urls:
     - tekton/tekton-1.0.0-rc27.tgz
     version: 1.0.0-rc27
-generated: "2019-11-18T09:58:58.189494585Z"
+generated: "2019-11-18T10:21:19.293833766Z"
