@@ -3,7 +3,7 @@ entries:
   k8s-gke-saa:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-27T22:39:22.957679624Z"
+    created: "2019-11-27T22:40:15.687018702Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: aeacbff59a53a387abe27a5415cb6be2623596d98318ef3e611b6e20e0286c3b
     maintainers:
@@ -25,7 +25,7 @@ entries:
     version: 1.0.0-rc27
   knative:
   - appVersion: v0.6.1
-    created: "2019-11-27T22:39:22.959070013Z"
+    created: "2019-11-27T22:40:15.688292151Z"
     description: Knative chart
     digest: d5830240f3dab0fb83c66ef7862fe499d90c5118d07ac4073725996f5ef8ddda
     keywords:
@@ -49,7 +49,7 @@ entries:
     version: 1.0.0-rc27
   monitoring:
   - appVersion: 1.7.1
-    created: "2019-11-27T22:39:22.98919171Z"
+    created: "2019-11-27T22:40:15.704680482Z"
     description: odahuflow monitoring
     digest: 72918d5bf6a53b88529e1ccd6150b9721529c19bd0634e9aa9de56b6c74b42d8
     keywords:
@@ -73,7 +73,7 @@ entries:
     version: 1.0.0-rc27
   odahu-flow-core:
   - appVersion: 1.7.1
-    created: "2019-11-27T22:39:22.991584078Z"
+    created: "2019-11-27T22:40:15.706385371Z"
     description: OdahuFlow stack
     digest: a676290abbc8fe2543bbe4ef451d8263224f23800fe00d6b852aaa7c3e31bbb3
     keywords:
@@ -97,7 +97,7 @@ entries:
     version: 1.0.0-rc27
   odahu-flow-jupyterlab:
   - appVersion: 1.7.1
-    created: "2019-11-27T22:39:22.992319921Z"
+    created: "2019-11-27T22:40:15.706894396Z"
     description: Legion stack
     digest: 45399cebdf92654f97763782a3c50b933c96b84b281d659aad51b90c37617d14
     keywords:
@@ -119,9 +119,33 @@ entries:
     urls:
     - odahu-flow-jupyterlab/odahu-flow-jupyterlab-1.0.0-rc2.tgz
     version: 1.0.0-rc2
+  odahu-flow-rest-packager:
+  - appVersion: 1.7.1
+    created: "2019-11-27T22:40:15.707303463Z"
+    description: Legion stack
+    digest: 88d89c5140c868cf2497d3dfe3a5f667568a00bf697c795d4295c545197cfe48
+    keywords:
+    - ML
+    maintainers:
+    - email: suslov.dimitriy@gmail.com
+      name: Dmitrii Suslov
+    - email: karbyshevds@gmail.com
+      name: Dmitriy Karbyshev
+    - email: maxkochubey@gmail.com
+      name: Max Kochubey
+    - email: vlad.tokarev.94@gmail.com
+      name: Vlad Tokarev
+    - email: kirill@makhonin.biz
+      name: Kirill Makhonin
+    - email: mcdkr@yandex.ru
+      name: Vitalik Solodilov
+    name: odahu-flow-rest-packager
+    urls:
+    - odahu-flow-rest-packager/odahu-flow-rest-packager-1.0.0-rc2.tgz
+    version: 1.0.0-rc2
   odahuflow:
   - appVersion: 1.7.1
-    created: "2019-11-27T22:39:22.995125284Z"
+    created: "2019-11-27T22:40:15.709380556Z"
     description: OdahuFlow stack
     digest: dad92e160a314dd5f8d6f15251d8d3a8c27cfb67ebc94166a9da339b0e276fb7
     keywords:
@@ -145,7 +169,7 @@ entries:
     version: 1.0.0-rc26
   odahuflow-jupyterlab:
   - appVersion: 1.7.1
-    created: "2019-11-27T22:39:22.995864214Z"
+    created: "2019-11-27T22:40:15.710881669Z"
     description: Legion stack
     digest: 16fc056f64f64fbc82897ebe148d4a660ce0f04692708dcd6708363b8dcafd89
     keywords:
@@ -169,7 +193,7 @@ entries:
     version: 1.0.0-rc1
   odahuflow-mlflow:
   - appVersion: 0.0.1
-    created: "2019-11-27T22:39:22.996659622Z"
+    created: "2019-11-27T22:40:15.711413032Z"
     description: MLFlow integration for odahuflow platform
     digest: c32551f502195f400f77cb81f484ebf52ee6d3c380f04d1c4f704e801d5b7c4d
     keywords:
@@ -194,7 +218,7 @@ entries:
     version: 1.0.0-rc6
   odahuflow-rest-packager:
   - appVersion: 1.7.1
-    created: "2019-11-27T22:39:22.997359636Z"
+    created: "2019-11-27T22:40:15.711861006Z"
     description: Legion stack
     digest: dc9f958ffacb07471303298041e36899f2e37bc8c8392fd1bdf003b0873c8893
     keywords:
@@ -218,7 +242,7 @@ entries:
     version: 1.0.0-rc1
   tekton:
   - appVersion: v0.6.1
-    created: "2019-11-27T22:39:22.99819108Z"
+    created: "2019-11-27T22:40:15.712352433Z"
     description: Tekton chart
     digest: b9e5c8b28520358e889818e950ad9b276b560759a3f5e11c49037a5f774099e5
     keywords:
@@ -241,4 +265,4 @@ entries:
     urls:
     - tekton/tekton-1.0.0-rc27.tgz
     version: 1.0.0-rc27
-generated: "2019-11-27T22:39:22.956786159Z"
+generated: "2019-11-27T22:40:15.686182231Z"
