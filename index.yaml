@@ -3,7 +3,7 @@ entries:
   k8s-gke-saa:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-12-03T21:54:26.83900737Z"
+    created: "2019-12-05T10:20:39.846014068Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: aeacbff59a53a387abe27a5415cb6be2623596d98318ef3e611b6e20e0286c3b
     maintainers:
@@ -25,7 +25,7 @@ entries:
     version: 1.0.0-rc27
   knative:
   - appVersion: v0.6.1
-    created: "2019-12-03T21:54:26.839968304Z"
+    created: "2019-12-05T10:20:39.847124728Z"
     description: Knative chart
     digest: d5830240f3dab0fb83c66ef7862fe499d90c5118d07ac4073725996f5ef8ddda
     keywords:
@@ -49,7 +49,7 @@ entries:
     version: 1.0.0-rc27
   monitoring:
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.860250547Z"
+    created: "2019-12-05T10:20:39.864357433Z"
     description: odahuflow monitoring
     digest: 72918d5bf6a53b88529e1ccd6150b9721529c19bd0634e9aa9de56b6c74b42d8
     keywords:
@@ -73,7 +73,30 @@ entries:
     version: 1.0.0-rc27
   odahu-flow-core:
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.868199138Z"
+    created: "2019-12-05T10:20:39.872763871Z"
+    description: OdahuFlow stack
+    digest: 60c99a43187a89fa24be12261c8486b207d0f59f14786531b61b22eb968f0379
+    keywords:
+    - ML
+    maintainers:
+    - email: suslov.dimitriy@gmail.com
+      name: Dmitrii Suslov
+    - email: karbyshevds@gmail.com
+      name: Dmitriy Karbyshev
+    - email: maxkochubey@gmail.com
+      name: Max Kochubey
+    - email: vlad.tokarev.94@gmail.com
+      name: Vlad Tokarev
+    - email: kirill@makhonin.biz
+      name: Kirill Makhonin
+    - email: mcdkr@yandex.ru
+      name: Vitalik Solodilov
+    name: odahu-flow-core
+    urls:
+    - odahu-flow-core/odahu-flow-core-1.0.0-rc30.tgz
+    version: 1.0.0-rc30
+  - appVersion: 1.7.1
+    created: "2019-12-05T10:20:39.870763092Z"
     description: OdahuFlow stack
     digest: a4775f5869c6bd7967b850219f9babe83f2ae61abc574161157d49812daf8d5c
     keywords:
@@ -96,7 +119,7 @@ entries:
     - odahu-flow-core/odahu-flow-core-1.0.0-rc29.tgz
     version: 1.0.0-rc29
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.865339712Z"
+    created: "2019-12-05T10:20:39.868592378Z"
     description: OdahuFlow stack
     digest: ce6acceade38a9ea0903319a2129c0b672573aedeff7b664c8b58be454d63cf5
     keywords:
@@ -119,7 +142,7 @@ entries:
     - odahu-flow-core/odahu-flow-core-1.0.0-rc28.tgz
     version: 1.0.0-rc28
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.862702866Z"
+    created: "2019-12-05T10:20:39.866289797Z"
     description: OdahuFlow stack
     digest: a676290abbc8fe2543bbe4ef451d8263224f23800fe00d6b852aaa7c3e31bbb3
     keywords:
@@ -143,7 +166,7 @@ entries:
     version: 1.0.0-rc27
   odahu-flow-fluentd:
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.871078192Z"
+    created: "2019-12-05T10:20:39.874940532Z"
     description: OdahuFlow Fluentd
     digest: dbe4a6326f472c5df1fc7c347047fcad3f99c6b81fc975ab21ab412c249ae519
     keywords:
@@ -166,7 +189,7 @@ entries:
     - odahu-flow-fluentd/odahu-flow-fluentd-1.0.0-rc31.tgz
     version: 1.0.0-rc31
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.870500126Z"
+    created: "2019-12-05T10:20:39.874408828Z"
     description: OdahuFlow Fluentd
     digest: ee0f0d3eaf2f93c8405f7e966328ed78557df0ad48a906d4d2e585312ae25232
     keywords:
@@ -189,7 +212,7 @@ entries:
     - odahu-flow-fluentd/odahu-flow-fluentd-1.0.0-rc30.tgz
     version: 1.0.0-rc30
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.870026478Z"
+    created: "2019-12-05T10:20:39.873863385Z"
     description: OdahuFlow Fluentd
     digest: 775d58ab7beb9ac53a930a5761024f901b5ea68a892a8d1f74bd059d04627d84
     keywords:
@@ -212,7 +235,7 @@ entries:
     - odahu-flow-fluentd/odahu-flow-fluentd-1.0.0-rc29.tgz
     version: 1.0.0-rc29
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.869361548Z"
+    created: "2019-12-05T10:20:39.873307851Z"
     description: OdahuFlow Fluentd
     digest: 69125b06ca1232945f3950bb8e146301d366eebfad39cb6f515432d511278f66
     keywords:
@@ -236,7 +259,7 @@ entries:
     version: 1.0.0-rc28
   odahu-flow-jupyterlab:
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.872403512Z"
+    created: "2019-12-05T10:20:39.877256967Z"
     description: Legion stack
     digest: a4ab4d63ea58a315d07e9e2e435132ec6085be99385405fde4021de55a26e84e
     keywords:
@@ -259,7 +282,7 @@ entries:
     - odahu-flow-jupyterlab/odahu-flow-jupyterlab-1.0.0-rc3.tgz
     version: 1.0.0-rc3
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.871768346Z"
+    created: "2019-12-05T10:20:39.875416951Z"
     description: Legion stack
     digest: 45399cebdf92654f97763782a3c50b933c96b84b281d659aad51b90c37617d14
     keywords:
@@ -284,7 +307,7 @@ entries:
   odahu-flow-k8s-gke-saa:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-12-03T21:54:26.874178714Z"
+    created: "2019-12-05T10:20:39.878845025Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 83efc5217df84bcbb108f3cd5651595f2e1e3963cd64fc14e38ed092a43cd54c
     maintainers:
@@ -306,7 +329,7 @@ entries:
     version: 1.0.0-rc31
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-12-03T21:54:26.873858925Z"
+    created: "2019-12-05T10:20:39.878489584Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 410165743b03da2842c46ee603edd4606a6c74c9d2806111896f5b23e4040562
     maintainers:
@@ -328,7 +351,7 @@ entries:
     version: 1.0.0-rc30
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-12-03T21:54:26.873460931Z"
+    created: "2019-12-05T10:20:39.878111545Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: ba70982004702e9ff1d7a49e3af011aedcdcbcc48b018c3fe6505ccca4c4b1d7
     maintainers:
@@ -350,7 +373,7 @@ entries:
     version: 1.0.0-rc29
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-12-03T21:54:26.872963717Z"
+    created: "2019-12-05T10:20:39.87768342Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 14b3c7f717ae20a1e6b2b20120a3e036165d42a298591575b0657c62c6158fc0
     maintainers:
@@ -372,7 +395,7 @@ entries:
     version: 1.0.0-rc28
   odahu-flow-knative:
   - appVersion: v0.6.1
-    created: "2019-12-03T21:54:26.878632811Z"
+    created: "2019-12-05T10:20:39.88249575Z"
     description: Knative chart
     digest: 66975d634147fc2c5b37daac565eed80c3120de7c793f9b0d51689103ed3aa2e
     keywords:
@@ -395,7 +418,7 @@ entries:
     - odahu-flow-knative/odahu-flow-knative-1.0.0-rc31.tgz
     version: 1.0.0-rc31
   - appVersion: v0.6.1
-    created: "2019-12-03T21:54:26.87773281Z"
+    created: "2019-12-05T10:20:39.881541349Z"
     description: Knative chart
     digest: b1e26af42caf16498ca4d1febda192a81007c9777ec061d3f52f24c2ca371ae5
     keywords:
@@ -418,7 +441,7 @@ entries:
     - odahu-flow-knative/odahu-flow-knative-1.0.0-rc30.tgz
     version: 1.0.0-rc30
   - appVersion: v0.6.1
-    created: "2019-12-03T21:54:26.876613231Z"
+    created: "2019-12-05T10:20:39.880640865Z"
     description: Knative chart
     digest: b604b6119d98b8a3ff18ba74b1ca1492de99a6da68a77e304615842cf83e6edf
     keywords:
@@ -441,7 +464,7 @@ entries:
     - odahu-flow-knative/odahu-flow-knative-1.0.0-rc29.tgz
     version: 1.0.0-rc29
   - appVersion: v0.6.1
-    created: "2019-12-03T21:54:26.875351114Z"
+    created: "2019-12-05T10:20:39.879755376Z"
     description: Knative chart
     digest: 06425a5ab71c74db2ebc7c0b43faefaf74c9a5b63a5a0186f2e9b028dd7d2fbd
     keywords:
@@ -465,7 +488,7 @@ entries:
     version: 1.0.0-rc28
   odahu-flow-mlflow:
   - appVersion: 0.0.1
-    created: "2019-12-03T21:54:26.879108386Z"
+    created: "2019-12-05T10:20:39.882956406Z"
     description: MLFlow integration for odahu-flow platform
     digest: 3bbe23e26e6f080e0f971afa1735cca94cdfb6bd17ccbd57b368d4df9e194059
     keywords:
@@ -490,7 +513,7 @@ entries:
     version: 1.0.0-rc7
   odahu-flow-monitoring:
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.952121157Z"
+    created: "2019-12-05T10:20:39.947360075Z"
     description: odahuflow monitoring
     digest: 5f8b87bbd5e00f1b4c07b86c8828cb90b7766cfe1942964957c8cfa206097d2f
     keywords:
@@ -513,7 +536,7 @@ entries:
     - odahu-flow-monitoring/odahu-flow-monitoring-1.0.0-rc31.tgz
     version: 1.0.0-rc31
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.935336662Z"
+    created: "2019-12-05T10:20:39.933259258Z"
     description: odahuflow monitoring
     digest: 7024d523c4f2f8790d39a294c2befa03745ef4fef17107da7b19de91f4055f1f
     keywords:
@@ -536,7 +559,7 @@ entries:
     - odahu-flow-monitoring/odahu-flow-monitoring-1.0.0-rc30.tgz
     version: 1.0.0-rc30
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.916646499Z"
+    created: "2019-12-05T10:20:39.914080126Z"
     description: odahuflow monitoring
     digest: 0d39049a319c99d673e6f30cc9b0759a24cbbf63251f8efa4c05b67d79485eae
     keywords:
@@ -559,7 +582,7 @@ entries:
     - odahu-flow-monitoring/odahu-flow-monitoring-1.0.0-rc29.tgz
     version: 1.0.0-rc29
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.896466241Z"
+    created: "2019-12-05T10:20:39.900002987Z"
     description: odahuflow monitoring
     digest: 810b98e4a81797d92aae0b619e43d1548fc92645c84add7c9becdfaca7e95f92
     keywords:
@@ -583,7 +606,7 @@ entries:
     version: 1.0.0-rc28
   odahu-flow-rest-packager:
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.9529992Z"
+    created: "2019-12-05T10:20:39.94824648Z"
     description: Legion stack
     digest: 0f282152c5c7d3c0339fa92f17befafcee57e93ef79c20078e5fc9c17bbda21d
     keywords:
@@ -606,7 +629,7 @@ entries:
     - odahu-flow-rest-packager/odahu-flow-rest-packager-1.0.0-rc3.tgz
     version: 1.0.0-rc3
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.952597612Z"
+    created: "2019-12-05T10:20:39.947817123Z"
     description: Legion stack
     digest: 88d89c5140c868cf2497d3dfe3a5f667568a00bf697c795d4295c545197cfe48
     keywords:
@@ -630,7 +653,7 @@ entries:
     version: 1.0.0-rc2
   odahu-flow-tekton:
   - appVersion: v0.6.1
-    created: "2019-12-03T21:54:26.954954891Z"
+    created: "2019-12-05T10:20:39.950301914Z"
     description: Tekton chart
     digest: bc421dab3de1c6c681194d843ed46a38b47f43170ef85b1a07987c0f3b6bee87
     keywords:
@@ -654,7 +677,7 @@ entries:
     - odahu-flow-tekton/odahu-flow-tekton-1.0.0-rc31.tgz
     version: 1.0.0-rc31
   - appVersion: v0.6.1
-    created: "2019-12-03T21:54:26.954464897Z"
+    created: "2019-12-05T10:20:39.949794912Z"
     description: Tekton chart
     digest: 5ea482dd58649eb079cb92c92a0ff0bcf9b7b4b31e1cfbb240b46996e680d327
     keywords:
@@ -678,7 +701,7 @@ entries:
     - odahu-flow-tekton/odahu-flow-tekton-1.0.0-rc30.tgz
     version: 1.0.0-rc30
   - appVersion: v0.6.1
-    created: "2019-12-03T21:54:26.953996523Z"
+    created: "2019-12-05T10:20:39.9492737Z"
     description: Tekton chart
     digest: 578242e9a33148e49fedf7fa03bf6b3fc11ef91f78e5e88c0ce398b8828acd25
     keywords:
@@ -702,7 +725,7 @@ entries:
     - odahu-flow-tekton/odahu-flow-tekton-1.0.0-rc29.tgz
     version: 1.0.0-rc29
   - appVersion: v0.6.1
-    created: "2019-12-03T21:54:26.953495136Z"
+    created: "2019-12-05T10:20:39.948784302Z"
     description: Tekton chart
     digest: a2dbdf0a940753768865d68ee11b9650e046ebbc1641465a76700bf7e94ea30e
     keywords:
@@ -727,7 +750,7 @@ entries:
     version: 1.0.0-rc28
   odahuflow:
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.956664749Z"
+    created: "2019-12-05T10:20:39.952053436Z"
     description: OdahuFlow stack
     digest: dad92e160a314dd5f8d6f15251d8d3a8c27cfb67ebc94166a9da339b0e276fb7
     keywords:
@@ -751,7 +774,7 @@ entries:
     version: 1.0.0-rc26
   odahuflow-jupyterlab:
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.957128728Z"
+    created: "2019-12-05T10:20:39.952478824Z"
     description: Legion stack
     digest: 16fc056f64f64fbc82897ebe148d4a660ce0f04692708dcd6708363b8dcafd89
     keywords:
@@ -775,7 +798,7 @@ entries:
     version: 1.0.0-rc1
   odahuflow-mlflow:
   - appVersion: 0.0.1
-    created: "2019-12-03T21:54:26.95755604Z"
+    created: "2019-12-05T10:20:39.952965842Z"
     description: MLFlow integration for odahuflow platform
     digest: c32551f502195f400f77cb81f484ebf52ee6d3c380f04d1c4f704e801d5b7c4d
     keywords:
@@ -800,7 +823,7 @@ entries:
     version: 1.0.0-rc6
   odahuflow-rest-packager:
   - appVersion: 1.7.1
-    created: "2019-12-03T21:54:26.957940502Z"
+    created: "2019-12-05T10:20:39.953339242Z"
     description: Legion stack
     digest: dc9f958ffacb07471303298041e36899f2e37bc8c8392fd1bdf003b0873c8893
     keywords:
@@ -824,7 +847,7 @@ entries:
     version: 1.0.0-rc1
   tekton:
   - appVersion: v0.6.1
-    created: "2019-12-03T21:54:26.958579579Z"
+    created: "2019-12-05T10:20:39.953831414Z"
     description: Tekton chart
     digest: b9e5c8b28520358e889818e950ad9b276b560759a3f5e11c49037a5f774099e5
     keywords:
@@ -847,4 +870,4 @@ entries:
     urls:
     - tekton/tekton-1.0.0-rc27.tgz
     version: 1.0.0-rc27
-generated: "2019-12-03T21:54:26.838274749Z"
+generated: "2019-12-05T10:20:39.845384175Z"
