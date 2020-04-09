@@ -3,7 +3,7 @@ entries:
   k8s-gke-saa:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-09T15:05:47.572284441Z"
+    created: "2020-04-09T15:18:23.024898545Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: aeacbff59a53a387abe27a5415cb6be2623596d98318ef3e611b6e20e0286c3b
     maintainers:
@@ -26,7 +26,7 @@ entries:
   knative:
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:47.57526241Z"
+    created: "2020-04-09T15:18:23.026887371Z"
     description: Knative chart
     digest: d5830240f3dab0fb83c66ef7862fe499d90c5118d07ac4073725996f5ef8ddda
     keywords:
@@ -51,7 +51,7 @@ entries:
   monitoring:
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.598726684Z"
+    created: "2020-04-09T15:18:23.051722024Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -83,8 +83,32 @@ entries:
     version: 1.0.0-rc27
   odahu-flow-core:
   - apiVersion: v1
+    appVersion: 1.2.0-rc2
+    created: "2020-04-09T15:18:23.155222365Z"
+    description: OdahuFlow stack
+    digest: b2def37c24786b5e6855e9e8a047991dd8b7190b2a6d568cc89484f60cf420da
+    keywords:
+    - ML
+    maintainers:
+    - email: suslov.dimitriy@gmail.com
+      name: Dmitrii Suslov
+    - email: karbyshevds@gmail.com
+      name: Dmitriy Karbyshev
+    - email: maxkochubey@gmail.com
+      name: Max Kochubey
+    - email: vlad.tokarev.94@gmail.com
+      name: Vlad Tokarev
+    - email: kirill@makhonin.biz
+      name: Kirill Makhonin
+    - email: mcdkr@yandex.ru
+      name: Vitalik Solodilov
+    name: odahu-flow-core
+    urls:
+    - odahu-flow-core/odahu-flow-core-1.2.0-rc2.tgz
+    version: 1.2.0-rc2
+  - apiVersion: v1
     appVersion: 1.2.0-rc1
-    created: "2020-04-09T15:05:47.684773254Z"
+    created: "2020-04-09T15:18:23.151463362Z"
     description: OdahuFlow stack
     digest: fc86f29d67efc4777c357975a77e4bd0d9bc67f860798491b574ca8db48ad91d
     keywords:
@@ -108,7 +132,7 @@ entries:
     version: 1.2.0-rc1
   - apiVersion: v1
     appVersion: 1.1.2
-    created: "2020-04-09T15:05:47.681126015Z"
+    created: "2020-04-09T15:18:23.147144104Z"
     description: OdahuFlow stack
     digest: 49e04e5f870669c3c54d221d985f9584bf43c45a93f259c1b0828c1d1d523a39
     keywords:
@@ -132,7 +156,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: 1.1.1
-    created: "2020-04-09T15:05:47.678679399Z"
+    created: "2020-04-09T15:18:23.144370704Z"
     description: OdahuFlow stack
     digest: a54ed378a0d52aebd83bbff22db269853a7d128fdc57fcec8badf10aae6e77fa
     keywords:
@@ -156,7 +180,7 @@ entries:
     version: 1.1.1
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2020-04-09T15:05:47.676238224Z"
+    created: "2020-04-09T15:18:23.141421217Z"
     description: OdahuFlow stack
     digest: 6c76155b541d35ff20b379bd7652827d483dc5e343f4b773fde3e4cea9e5a776
     keywords:
@@ -180,7 +204,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.1.0-rc9
-    created: "2020-04-09T15:05:47.673813753Z"
+    created: "2020-04-09T15:18:23.138599575Z"
     description: OdahuFlow stack
     digest: 102b6742a76e0973b739891ef0b0c73202a4ad72f7b0e2b2d60d83501c221b4e
     keywords:
@@ -204,7 +228,7 @@ entries:
     version: 1.1.0-rc9
   - apiVersion: v1
     appVersion: 1.1.0-rc8
-    created: "2020-04-09T15:05:47.669856882Z"
+    created: "2020-04-09T15:18:23.133412114Z"
     description: OdahuFlow stack
     digest: eaee7570e86f557204a284fd8a766c804f49cf8484c8d261d4641b988fe535dc
     keywords:
@@ -228,7 +252,7 @@ entries:
     version: 1.1.0-rc8
   - apiVersion: v1
     appVersion: 1.1.0-rc7
-    created: "2020-04-09T15:05:47.666825046Z"
+    created: "2020-04-09T15:18:23.129800315Z"
     description: OdahuFlow stack
     digest: fe2cb988c3098e5edce265589a71af6445b6ce53d6e0c8013736a08569806300
     keywords:
@@ -252,7 +276,7 @@ entries:
     version: 1.1.0-rc7
   - apiVersion: v1
     appVersion: 1.1.0-rc6
-    created: "2020-04-09T15:05:47.663803941Z"
+    created: "2020-04-09T15:18:23.12628291Z"
     description: OdahuFlow stack
     digest: efa6828de74b76b889517a4e21aca9d090c4081811bcc62f1c032a737336758b
     keywords:
@@ -276,7 +300,7 @@ entries:
     version: 1.1.0-rc6
   - apiVersion: v1
     appVersion: 1.1.0-rc5
-    created: "2020-04-09T15:05:47.660993402Z"
+    created: "2020-04-09T15:18:23.122632832Z"
     description: OdahuFlow stack
     digest: b218e297bf4b530834010d3196e0d6892096c03f2253375ce6c0f4744611753a
     keywords:
@@ -300,7 +324,7 @@ entries:
     version: 1.1.0-rc5
   - apiVersion: v1
     appVersion: 1.1.0-rc4
-    created: "2020-04-09T15:05:47.657569408Z"
+    created: "2020-04-09T15:18:23.118355876Z"
     description: OdahuFlow stack
     digest: b0dcd1c3ca7b9159086347f62bc9327dfd7d1fc16a0f42132817521e479134ce
     keywords:
@@ -324,7 +348,7 @@ entries:
     version: 1.1.0-rc4
   - apiVersion: v1
     appVersion: 1.1.0-rc2
-    created: "2020-04-09T15:05:47.655278443Z"
+    created: "2020-04-09T15:18:23.115250255Z"
     description: OdahuFlow stack
     digest: e79b4b4d03b9e101b8b98a3a312891cfeb0e4501b2334e0339946df02bee4d23
     keywords:
@@ -348,7 +372,7 @@ entries:
     version: 1.1.0-rc2
   - apiVersion: v1
     appVersion: 1.1.0-rc15
-    created: "2020-04-09T15:05:47.652453405Z"
+    created: "2020-04-09T15:18:23.112194951Z"
     description: OdahuFlow stack
     digest: 95f6af4344fba57858e6cb0c96f7849015ba3fcb3852155c5c30330885dd949f
     keywords:
@@ -372,7 +396,7 @@ entries:
     version: 1.1.0-rc15
   - apiVersion: v1
     appVersion: 1.1.0-rc14
-    created: "2020-04-09T15:05:47.649910588Z"
+    created: "2020-04-09T15:18:23.109038569Z"
     description: OdahuFlow stack
     digest: c5e4d73bf548d73999db1068ed99253dd9dd1a84a7b4dd06a9af3caff5d0813d
     keywords:
@@ -396,7 +420,7 @@ entries:
     version: 1.1.0-rc14
   - apiVersion: v1
     appVersion: 1.1.0-rc13
-    created: "2020-04-09T15:05:47.646265006Z"
+    created: "2020-04-09T15:18:23.104975389Z"
     description: OdahuFlow stack
     digest: 9a25da4723e37e697978c037ec4d2ef9837938a31077a394bb74fd9a4078f042
     keywords:
@@ -420,7 +444,7 @@ entries:
     version: 1.1.0-rc13
   - apiVersion: v1
     appVersion: 1.1.0-rc12
-    created: "2020-04-09T15:05:47.643905508Z"
+    created: "2020-04-09T15:18:23.102524079Z"
     description: OdahuFlow stack
     digest: e9a4e0f24535b4466b0a35bf33723d66db2a33a98f5128e7acd18a2f1c33cf35
     keywords:
@@ -444,7 +468,7 @@ entries:
     version: 1.1.0-rc12
   - apiVersion: v1
     appVersion: 1.1.0-rc11
-    created: "2020-04-09T15:05:47.64147478Z"
+    created: "2020-04-09T15:18:23.099939786Z"
     description: OdahuFlow stack
     digest: a3c97cb2ebd45bd0c477a2c24901acb41790edef50e762e663151817285e8531
     keywords:
@@ -468,7 +492,7 @@ entries:
     version: 1.1.0-rc11
   - apiVersion: v1
     appVersion: 1.1.0-rc10
-    created: "2020-04-09T15:05:47.63906848Z"
+    created: "2020-04-09T15:18:23.097434356Z"
     description: OdahuFlow stack
     digest: ddb33878be8a734b962b2f1c10eca65ddb36910de1bd529687a7bdd345f4fe6b
     keywords:
@@ -492,7 +516,7 @@ entries:
     version: 1.1.0-rc10
   - apiVersion: v1
     appVersion: 1.1.0-rc1
-    created: "2020-04-09T15:05:47.635447098Z"
+    created: "2020-04-09T15:18:23.093627313Z"
     description: OdahuFlow stack
     digest: 4ad229371d3db567952d6324f671f51d78644622aa96a1bb8b86e56c576b9b85
     keywords:
@@ -516,7 +540,7 @@ entries:
     version: 1.1.0-rc1
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.633088062Z"
+    created: "2020-04-09T15:18:23.090053232Z"
     description: OdahuFlow stack
     digest: 326ef4f3a0a8f45a7d200eb82786f0c034f853b36f7f22fb8e66082bc63df6b8
     keywords:
@@ -540,7 +564,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.63075921Z"
+    created: "2020-04-09T15:18:23.086546733Z"
     description: OdahuFlow stack
     digest: 434dfd5ecc02d849943cf6ebc79a07511853f438e0d384b11936bebdee8b1a5b
     keywords:
@@ -564,7 +588,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.628378427Z"
+    created: "2020-04-09T15:18:23.082983425Z"
     description: OdahuFlow stack
     digest: fc8c085fb810e58a0284ad2f52b6564a69722431434f9f66bcf79ad66b5cc67e
     keywords:
@@ -588,7 +612,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.624680288Z"
+    created: "2020-04-09T15:18:23.078647412Z"
     description: OdahuFlow stack
     digest: aacbd4d83fa64444ea7f300f8ec511fdb2d2500f99487b1868145d27a64be192
     keywords:
@@ -612,7 +636,7 @@ entries:
     version: 1.0.0-rc36
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.622039372Z"
+    created: "2020-04-09T15:18:23.076073958Z"
     description: OdahuFlow stack
     digest: 8babe0bec6aa84126af55b5af5a9e821f998e07faf7ce4691549e16cb0e76412
     keywords:
@@ -636,7 +660,7 @@ entries:
     version: 1.0.0-rc35
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.618950537Z"
+    created: "2020-04-09T15:18:23.073450541Z"
     description: OdahuFlow stack
     digest: 11e624ea853920a9c9a28b44281160e4295d0f326c65b468c26fc7bac8cb7697
     keywords:
@@ -660,7 +684,7 @@ entries:
     version: 1.0.0-rc34
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.616198376Z"
+    created: "2020-04-09T15:18:23.069673653Z"
     description: OdahuFlow stack
     digest: b1aacf4e93c1b0a342e746dee72ae5ab0f7ca9c08ef20301b677965d21582f71
     keywords:
@@ -684,7 +708,7 @@ entries:
     version: 1.0.0-rc33
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.612006686Z"
+    created: "2020-04-09T15:18:23.066859991Z"
     description: OdahuFlow stack
     digest: b9674e825f63620eb23b6b2615bea25610cd8539747b956bf0cd7a4658025aff
     keywords:
@@ -708,7 +732,7 @@ entries:
     version: 1.0.0-rc32
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.609080324Z"
+    created: "2020-04-09T15:18:23.063926586Z"
     description: OdahuFlow stack
     digest: 5876fd5944c522e93d6313665b5b6bbcacefef8e0c56ca126633856c1113a88c
     keywords:
@@ -732,7 +756,7 @@ entries:
     version: 1.0.0-rc30
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.60637604Z"
+    created: "2020-04-09T15:18:23.060565206Z"
     description: OdahuFlow stack
     digest: a4775f5869c6bd7967b850219f9babe83f2ae61abc574161157d49812daf8d5c
     keywords:
@@ -756,7 +780,7 @@ entries:
     version: 1.0.0-rc29
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.603699311Z"
+    created: "2020-04-09T15:18:23.05672212Z"
     description: OdahuFlow stack
     digest: ce6acceade38a9ea0903319a2129c0b672573aedeff7b664c8b58be454d63cf5
     keywords:
@@ -780,7 +804,7 @@ entries:
     version: 1.0.0-rc28
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.601021587Z"
+    created: "2020-04-09T15:18:23.054132003Z"
     description: OdahuFlow stack
     digest: a676290abbc8fe2543bbe4ef451d8263224f23800fe00d6b852aaa7c3e31bbb3
     keywords:
@@ -805,7 +829,7 @@ entries:
   odahu-flow-fluentd:
   - apiVersion: v1
     appVersion: 1.2.0-rc2
-    created: "2020-04-09T15:05:47.712933072Z"
+    created: "2020-04-09T15:18:23.189611836Z"
     description: OdahuFlow Fluentd
     digest: 40a8dcc012b1cccdaad95a8cabc17f1b7fc97ada14aabe7136d4e91af72f37d5
     keywords:
@@ -829,7 +853,7 @@ entries:
     version: 1.2.0-rc2
   - apiVersion: v1
     appVersion: 1.2.0-rc1
-    created: "2020-04-09T15:05:47.712192741Z"
+    created: "2020-04-09T15:18:23.188454839Z"
     description: OdahuFlow Fluentd
     digest: a59388d4b2f46da253a1f188181e8f2ccf885335e752addc55fff905148b83a6
     keywords:
@@ -853,7 +877,7 @@ entries:
     version: 1.2.0-rc1
   - apiVersion: v1
     appVersion: 1.1.2
-    created: "2020-04-09T15:05:47.711426101Z"
+    created: "2020-04-09T15:18:23.187386312Z"
     description: OdahuFlow Fluentd
     digest: a8cf64a8a1f777dbb129613dab5f89d1095a7f255854c0a2f0e3a48f583872cc
     keywords:
@@ -877,7 +901,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: 1.1.1
-    created: "2020-04-09T15:05:47.709758993Z"
+    created: "2020-04-09T15:18:23.186292138Z"
     description: OdahuFlow Fluentd
     digest: ef96665ed029f57b140d5e31f8fac62cea447d55193536b0742afef0c0064179
     keywords:
@@ -901,7 +925,7 @@ entries:
     version: 1.1.1
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2020-04-09T15:05:47.708738399Z"
+    created: "2020-04-09T15:18:23.184843569Z"
     description: OdahuFlow Fluentd
     digest: 7158707c12049237ac780707cf9e6acfa48a0c342de4404b4b1f2155579fdf8b
     keywords:
@@ -925,7 +949,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.1.0-rc9
-    created: "2020-04-09T15:05:47.707588632Z"
+    created: "2020-04-09T15:18:23.183412381Z"
     description: OdahuFlow Fluentd
     digest: 2fcd6262bf9ccc1afa824f13234c0e3fae13f126c2e87df18e8ae6193270990f
     keywords:
@@ -949,7 +973,7 @@ entries:
     version: 1.1.0-rc9
   - apiVersion: v1
     appVersion: 1.1.0-rc8
-    created: "2020-04-09T15:05:47.706426901Z"
+    created: "2020-04-09T15:18:23.181421553Z"
     description: OdahuFlow Fluentd
     digest: be992ddc1db56ce6fe386bc9b35bd1a585d41f6534c3f40c17bbe3ade33cec47
     keywords:
@@ -973,7 +997,7 @@ entries:
     version: 1.1.0-rc8
   - apiVersion: v1
     appVersion: 1.1.0-rc7
-    created: "2020-04-09T15:05:47.705433719Z"
+    created: "2020-04-09T15:18:23.180603513Z"
     description: OdahuFlow Fluentd
     digest: e72be27988726b7f2f79ca74fcbbafed717852b49d16ca69106d088e4f769c4f
     keywords:
@@ -997,7 +1021,7 @@ entries:
     version: 1.1.0-rc7
   - apiVersion: v1
     appVersion: 1.1.0-rc6
-    created: "2020-04-09T15:05:47.704255173Z"
+    created: "2020-04-09T15:18:23.179723159Z"
     description: OdahuFlow Fluentd
     digest: ce87c00fe6d6df4a497267684ec44cda9493ece0adea22106b3eb7cac291bc3c
     keywords:
@@ -1021,7 +1045,7 @@ entries:
     version: 1.1.0-rc6
   - apiVersion: v1
     appVersion: 1.1.0-rc5
-    created: "2020-04-09T15:05:47.703123977Z"
+    created: "2020-04-09T15:18:23.178607385Z"
     description: OdahuFlow Fluentd
     digest: b6137c821a9fb651642dacfa74955bc1ee8d72d11f04eb98c1544c84e4b31fd3
     keywords:
@@ -1045,7 +1069,7 @@ entries:
     version: 1.1.0-rc5
   - apiVersion: v1
     appVersion: 1.1.0-rc4
-    created: "2020-04-09T15:05:47.702378739Z"
+    created: "2020-04-09T15:18:23.177510526Z"
     description: OdahuFlow Fluentd
     digest: 38c6f8c9fced2475dd371b94faba357a7c0feb4f5d1223ecb414c065a40c76ad
     keywords:
@@ -1069,7 +1093,7 @@ entries:
     version: 1.1.0-rc4
   - apiVersion: v1
     appVersion: 1.1.0-rc3
-    created: "2020-04-09T15:05:47.70156604Z"
+    created: "2020-04-09T15:18:23.176757678Z"
     description: OdahuFlow Fluentd
     digest: 0aa22224f0fd5c290b5b8df2bbf8bcaa89a8833f1b0f35ca31d7e2ba163a7cc6
     keywords:
@@ -1093,7 +1117,7 @@ entries:
     version: 1.1.0-rc3
   - apiVersion: v1
     appVersion: 1.1.0-rc2
-    created: "2020-04-09T15:05:47.700752841Z"
+    created: "2020-04-09T15:18:23.176018363Z"
     description: OdahuFlow Fluentd
     digest: c01cf6811b2fc117724f2a8640ea88eb7ce1091ba2a5f640541f32d97c42595e
     keywords:
@@ -1117,7 +1141,7 @@ entries:
     version: 1.1.0-rc2
   - apiVersion: v1
     appVersion: 1.1.0-rc15
-    created: "2020-04-09T15:05:47.69998763Z"
+    created: "2020-04-09T15:18:23.17529707Z"
     description: OdahuFlow Fluentd
     digest: e09e50caa281c09aaf4963f4125039a40738f783bbf458e18cf74210d07b4711
     keywords:
@@ -1141,7 +1165,7 @@ entries:
     version: 1.1.0-rc15
   - apiVersion: v1
     appVersion: 1.1.0-rc14
-    created: "2020-04-09T15:05:47.69925521Z"
+    created: "2020-04-09T15:18:23.174596585Z"
     description: OdahuFlow Fluentd
     digest: c7c963a91e8faccd21abe3388f65a6106c982251056842a7084c0e51e038d4ed
     keywords:
@@ -1165,7 +1189,7 @@ entries:
     version: 1.1.0-rc14
   - apiVersion: v1
     appVersion: 1.1.0-rc13
-    created: "2020-04-09T15:05:47.698484616Z"
+    created: "2020-04-09T15:18:23.173826261Z"
     description: OdahuFlow Fluentd
     digest: 35178a092792a7de5d76e4535713a931e34fecd53957b1e52ddb8f3fdf1de6b6
     keywords:
@@ -1189,7 +1213,7 @@ entries:
     version: 1.1.0-rc13
   - apiVersion: v1
     appVersion: 1.1.0-rc12
-    created: "2020-04-09T15:05:47.697688912Z"
+    created: "2020-04-09T15:18:23.173081278Z"
     description: OdahuFlow Fluentd
     digest: bde63ee1c6578c28877574bceb53d5ff5126f0acedb9a356f1485a89c9277a4a
     keywords:
@@ -1213,7 +1237,7 @@ entries:
     version: 1.1.0-rc12
   - apiVersion: v1
     appVersion: 1.1.0-rc11
-    created: "2020-04-09T15:05:47.696952184Z"
+    created: "2020-04-09T15:18:23.172364336Z"
     description: OdahuFlow Fluentd
     digest: eea46c661591f932401562b5cd9f3d422a9d7284e2eaa808a13816a417e85d69
     keywords:
@@ -1237,7 +1261,7 @@ entries:
     version: 1.1.0-rc11
   - apiVersion: v1
     appVersion: 1.1.0-rc10
-    created: "2020-04-09T15:05:47.695025276Z"
+    created: "2020-04-09T15:18:23.171631144Z"
     description: OdahuFlow Fluentd
     digest: 8fe804920007d961c99895b913fd0c838ee3b449a060e0b5edd719c4eb50ca90
     keywords:
@@ -1261,7 +1285,7 @@ entries:
     version: 1.1.0-rc10
   - apiVersion: v1
     appVersion: 1.1.0-rc1
-    created: "2020-04-09T15:05:47.694291602Z"
+    created: "2020-04-09T15:18:23.170925649Z"
     description: OdahuFlow Fluentd
     digest: dc84ce69f3596b6fab0da4cee6efbe22e9bebc00d59550f4e276eb76b9f1f7b6
     keywords:
@@ -1285,7 +1309,7 @@ entries:
     version: 1.1.0-rc1
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.693536795Z"
+    created: "2020-04-09T15:18:23.170091512Z"
     description: OdahuFlow Fluentd
     digest: 4492bf364fbb1f1e3f833633069b4aa40b8cded6a14201f6cd0f92403a67e982
     keywords:
@@ -1309,7 +1333,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.692844721Z"
+    created: "2020-04-09T15:18:23.168639991Z"
     description: OdahuFlow Fluentd
     digest: 08382cf5a2942766bf8113b07b29ec6de5381b9a210eddb813bf16a7d3c80d5e
     keywords:
@@ -1333,7 +1357,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.692102415Z"
+    created: "2020-04-09T15:18:23.1670126Z"
     description: OdahuFlow Fluentd
     digest: 2033065d4e8b0383574cae2040a307e1628bf99f9237acd489093d77ec810e61
     keywords:
@@ -1357,7 +1381,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.691414688Z"
+    created: "2020-04-09T15:18:23.165793153Z"
     description: OdahuFlow Fluentd
     digest: 7d8e87e7eee13e96fa0f7d88582d3d990f5537d3f7b8bb34242d91e9de32f675
     keywords:
@@ -1381,7 +1405,7 @@ entries:
     version: 1.0.0-rc36
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.690713676Z"
+    created: "2020-04-09T15:18:23.164629483Z"
     description: OdahuFlow Fluentd
     digest: 9f1a0e09954d6587b1d892febce8296f0d0df5e1bceaa58a97d74ec11b8c3e1d
     keywords:
@@ -1405,7 +1429,7 @@ entries:
     version: 1.0.0-rc35
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.689974719Z"
+    created: "2020-04-09T15:18:23.163409386Z"
     description: OdahuFlow Fluentd
     digest: 7d0bf422631842b80cf7e02e32cd2a7573f6cd3b1ad317e5d0c7a69d0a0efea9
     keywords:
@@ -1429,7 +1453,7 @@ entries:
     version: 1.0.0-rc34
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.689222106Z"
+    created: "2020-04-09T15:18:23.162218713Z"
     description: OdahuFlow Fluentd
     digest: 3787ddf9d85bc30d0d996fab9ebf00271fd3442b83effd17c5075eb4a1623e7e
     keywords:
@@ -1453,7 +1477,7 @@ entries:
     version: 1.0.0-rc33
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.688478445Z"
+    created: "2020-04-09T15:18:23.161012362Z"
     description: OdahuFlow Fluentd
     digest: a0e2eb00d29391179113b099fe0f30f710f30652edebe8bafcd6cf837956b7fb
     keywords:
@@ -1477,7 +1501,7 @@ entries:
     version: 1.0.0-rc32
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.687714018Z"
+    created: "2020-04-09T15:18:23.159838906Z"
     description: OdahuFlow Fluentd
     digest: dbe4a6326f472c5df1fc7c347047fcad3f99c6b81fc975ab21ab412c249ae519
     keywords:
@@ -1501,7 +1525,7 @@ entries:
     version: 1.0.0-rc31
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.687018275Z"
+    created: "2020-04-09T15:18:23.158700033Z"
     description: OdahuFlow Fluentd
     digest: ee0f0d3eaf2f93c8405f7e966328ed78557df0ad48a906d4d2e585312ae25232
     keywords:
@@ -1525,7 +1549,7 @@ entries:
     version: 1.0.0-rc30
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.686261378Z"
+    created: "2020-04-09T15:18:23.157524812Z"
     description: OdahuFlow Fluentd
     digest: 775d58ab7beb9ac53a930a5761024f901b5ea68a892a8d1f74bd059d04627d84
     keywords:
@@ -1549,7 +1573,7 @@ entries:
     version: 1.0.0-rc29
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.685511653Z"
+    created: "2020-04-09T15:18:23.156375292Z"
     description: OdahuFlow Fluentd
     digest: 69125b06ca1232945f3950bb8e146301d366eebfad39cb6f515432d511278f66
     keywords:
@@ -1574,7 +1598,7 @@ entries:
   odahu-flow-jupyterlab:
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.716194996Z"
+    created: "2020-04-09T15:18:23.194607863Z"
     description: Legion stack
     digest: 18258936c41dd53c7fd73d69188ec6126ab617cdcc9c47888b55aa30551de34b
     keywords:
@@ -1598,7 +1622,7 @@ entries:
     version: 1.0.0-rc35
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.715583038Z"
+    created: "2020-04-09T15:18:23.193636727Z"
     description: Legion stack
     digest: 77144c680f2c95094e2d2f50b48b12b30650cc18448283dc987b18b21c5dbaf7
     keywords:
@@ -1622,7 +1646,7 @@ entries:
     version: 1.0.0-rc34
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.714936087Z"
+    created: "2020-04-09T15:18:23.19269454Z"
     description: Legion stack
     digest: 64037ed0fec533450e8efd6b1ec263df8d611c1e28936d0107049201774ecfa0
     keywords:
@@ -1646,7 +1670,7 @@ entries:
     version: 1.0.0-rc32
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.714234989Z"
+    created: "2020-04-09T15:18:23.191743306Z"
     description: Legion stack
     digest: a4ab4d63ea58a315d07e9e2e435132ec6085be99385405fde4021de55a26e84e
     keywords:
@@ -1670,7 +1694,7 @@ entries:
     version: 1.0.0-rc3
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.713582453Z"
+    created: "2020-04-09T15:18:23.190752661Z"
     description: Legion stack
     digest: 45399cebdf92654f97763782a3c50b933c96b84b281d659aad51b90c37617d14
     keywords:
@@ -1695,7 +1719,7 @@ entries:
   odahu-flow-k8s-gke-saa:
   - apiVersion: v1
     appVersion: 1.2.0-rc2
-    created: "2020-04-09T15:05:47.737277602Z"
+    created: "2020-04-09T15:18:23.213584709Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 4c3b32dc10a071ad717819b52439901d8b233bb45838bd1c2f06de8f5501b10d
     maintainers:
@@ -1717,7 +1741,7 @@ entries:
     version: 1.2.0-rc2
   - apiVersion: v1
     appVersion: 1.2.0-rc1
-    created: "2020-04-09T15:05:47.736305605Z"
+    created: "2020-04-09T15:18:23.212888205Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: d6451318d43e778dd99410dc90d13c25423a2221063c593f105e669f2c6f8ba0
     maintainers:
@@ -1739,7 +1763,7 @@ entries:
     version: 1.2.0-rc1
   - apiVersion: v1
     appVersion: 1.1.2
-    created: "2020-04-09T15:05:47.735126542Z"
+    created: "2020-04-09T15:18:23.212290593Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: de9f153db9cc2d03ca09b07e52e0cae8a0e8f7271f5182c56749b3859c5140bb
     maintainers:
@@ -1761,7 +1785,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: 1.1.1
-    created: "2020-04-09T15:05:47.734464667Z"
+    created: "2020-04-09T15:18:23.211837715Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 395c77116dcec820fcb5de9fcf84c53cdeca52e46b8869bfd521a578c197c20e
     maintainers:
@@ -1783,7 +1807,7 @@ entries:
     version: 1.1.1
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2020-04-09T15:05:47.733772365Z"
+    created: "2020-04-09T15:18:23.211393215Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 356d944a7bb6efb0092cbc0330bb0492ceb087b05dc770f9aa25bff4f124505f
     maintainers:
@@ -1805,7 +1829,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.1.0-rc9
-    created: "2020-04-09T15:05:47.733127466Z"
+    created: "2020-04-09T15:18:23.210956835Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 328ca23c4393bda26d9e5a60c167c2c1e95ec3b301e1e97ffcf27ee2dbc968da
     maintainers:
@@ -1827,7 +1851,7 @@ entries:
     version: 1.1.0-rc9
   - apiVersion: v1
     appVersion: 1.1.0-rc8
-    created: "2020-04-09T15:05:47.732459502Z"
+    created: "2020-04-09T15:18:23.210516293Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 7cca77b2ae9eeede380b2869ce48886bbe9a60b7e58967d4f817e799d70cddd1
     maintainers:
@@ -1849,7 +1873,7 @@ entries:
     version: 1.1.0-rc8
   - apiVersion: v1
     appVersion: 1.1.0-rc7
-    created: "2020-04-09T15:05:47.731787572Z"
+    created: "2020-04-09T15:18:23.210027403Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 5f8d63e7414bbb381328dcd42da648f2a0cb30fee52a142c4dc70ac2728f0b5c
     maintainers:
@@ -1871,7 +1895,7 @@ entries:
     version: 1.1.0-rc7
   - apiVersion: v1
     appVersion: 1.1.0-rc6
-    created: "2020-04-09T15:05:47.731123277Z"
+    created: "2020-04-09T15:18:23.209513278Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 589902e12a8a5f912cc1717d0f2efb9d71c6c3dc105dae287f8b2dd560f79a9a
     maintainers:
@@ -1893,7 +1917,7 @@ entries:
     version: 1.1.0-rc6
   - apiVersion: v1
     appVersion: 1.1.0-rc5
-    created: "2020-04-09T15:05:47.730450669Z"
+    created: "2020-04-09T15:18:23.209070423Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 02d8b28ea0110f88bb313e32a1772787320a353d7279fa70153a56cac2dee0ee
     maintainers:
@@ -1915,7 +1939,7 @@ entries:
     version: 1.1.0-rc5
   - apiVersion: v1
     appVersion: 1.1.0-rc4
-    created: "2020-04-09T15:05:47.729746017Z"
+    created: "2020-04-09T15:18:23.208634467Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 37295513874ff6f68f9e1ee016a659ca62e5efba667a8cd8feb9774a24e0c23f
     maintainers:
@@ -1937,7 +1961,7 @@ entries:
     version: 1.1.0-rc4
   - apiVersion: v1
     appVersion: 1.1.0-rc3
-    created: "2020-04-09T15:05:47.729099105Z"
+    created: "2020-04-09T15:18:23.208209565Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: d410b34820f32bdb31aba21f5ff401241c284dfab5bfd22328e9f6b2ae6ef463
     maintainers:
@@ -1959,7 +1983,7 @@ entries:
     version: 1.1.0-rc3
   - apiVersion: v1
     appVersion: 1.1.0-rc2
-    created: "2020-04-09T15:05:47.728430606Z"
+    created: "2020-04-09T15:18:23.207755648Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 69910db5098778511fa07f8e09bad99666dfc976aea39ea3fb8b6718b6670100
     maintainers:
@@ -1981,7 +2005,7 @@ entries:
     version: 1.1.0-rc2
   - apiVersion: v1
     appVersion: 1.1.0-rc15
-    created: "2020-04-09T15:05:47.727752566Z"
+    created: "2020-04-09T15:18:23.207203583Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: d428e90a02a60fbcb2834be1bac37a7738ae0db70fa3255bb36b1645aacbb572
     maintainers:
@@ -2003,7 +2027,7 @@ entries:
     version: 1.1.0-rc15
   - apiVersion: v1
     appVersion: 1.1.0-rc14
-    created: "2020-04-09T15:05:47.727110764Z"
+    created: "2020-04-09T15:18:23.206448592Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 384deca327de98219cdb15d5657d29bc1209ff215f9300acf5c2e6a23c6695af
     maintainers:
@@ -2025,7 +2049,7 @@ entries:
     version: 1.1.0-rc14
   - apiVersion: v1
     appVersion: 1.1.0-rc13
-    created: "2020-04-09T15:05:47.726455081Z"
+    created: "2020-04-09T15:18:23.205828795Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 3127c9ced0b76955f49dd2effea8576c4103030e4c4191f19a15706bc200f2da
     maintainers:
@@ -2047,7 +2071,7 @@ entries:
     version: 1.1.0-rc13
   - apiVersion: v1
     appVersion: 1.1.0-rc12
-    created: "2020-04-09T15:05:47.725752823Z"
+    created: "2020-04-09T15:18:23.205383849Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 3fddb7676bb195a7d08439135815feca40527027a5ce6f16ef3a9d2b52873450
     maintainers:
@@ -2069,7 +2093,7 @@ entries:
     version: 1.1.0-rc12
   - apiVersion: v1
     appVersion: 1.1.0-rc11
-    created: "2020-04-09T15:05:47.725079568Z"
+    created: "2020-04-09T15:18:23.204948694Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 37e04756fc71745c51f560e013110d314c422db70065c7f3b73289ee298fcb1c
     maintainers:
@@ -2091,7 +2115,7 @@ entries:
     version: 1.1.0-rc11
   - apiVersion: v1
     appVersion: 1.1.0-rc10
-    created: "2020-04-09T15:05:47.724414042Z"
+    created: "2020-04-09T15:18:23.204492398Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: e6f8e2be4577dbbdfe0275ccf5885baeb8ee65fb59f76cd44667f0d8077214ee
     maintainers:
@@ -2113,7 +2137,7 @@ entries:
     version: 1.1.0-rc10
   - apiVersion: v1
     appVersion: 1.1.0-rc1
-    created: "2020-04-09T15:05:47.723692977Z"
+    created: "2020-04-09T15:18:23.203964738Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 479c7c259e30d5d991fdd9d5877c57c585c457eb259d875e420048dd4e06bdb3
     maintainers:
@@ -2135,7 +2159,7 @@ entries:
     version: 1.1.0-rc1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-09T15:05:47.722986293Z"
+    created: "2020-04-09T15:18:23.20321499Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 15fb2bb25107c1f0d9bf36f48c119c7d8e5f77b34d73cc073afb05d267e1374c
     maintainers:
@@ -2157,7 +2181,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-09T15:05:47.722229469Z"
+    created: "2020-04-09T15:18:23.202282325Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 962acca2435b0cf71945641b9dd32056524133caeb582b3d99cb42daf0920821
     maintainers:
@@ -2179,7 +2203,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-09T15:05:47.720842772Z"
+    created: "2020-04-09T15:18:23.201432656Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 8c462954fa61b240160fed575b3485c456ca9be5a4b27dfd31a1566df1f18525
     maintainers:
@@ -2201,7 +2225,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-09T15:05:47.720390609Z"
+    created: "2020-04-09T15:18:23.200726076Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 21077ecc9896fab5b221f8f3289c1cb39ee4d8c22f939717a8e5bd8f4ccc618a
     maintainers:
@@ -2223,7 +2247,7 @@ entries:
     version: 1.0.0-rc36
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-09T15:05:47.719912185Z"
+    created: "2020-04-09T15:18:23.200010039Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 9cddbe350426f4c72cb9c7fed9b6c722921469b08633067bae9a9600341b14c4
     maintainers:
@@ -2245,7 +2269,7 @@ entries:
     version: 1.0.0-rc35
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-09T15:05:47.719415563Z"
+    created: "2020-04-09T15:18:23.199320409Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 216ca8adfc1a07f2ca3e7c305c75a813f3fe6fa2f71b2f37bdd32066f51b6367
     maintainers:
@@ -2267,7 +2291,7 @@ entries:
     version: 1.0.0-rc34
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-09T15:05:47.718891547Z"
+    created: "2020-04-09T15:18:23.198664806Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: c5933635b90c9df9c10ff8931128e1d9fecb303c15e1f80d0f8ca13a9f2cb349
     maintainers:
@@ -2289,7 +2313,7 @@ entries:
     version: 1.0.0-rc33
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-09T15:05:47.718460096Z"
+    created: "2020-04-09T15:18:23.197976047Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: c12dd3cddb2c890b4d04493bc76a6e5815ece6d63e308772acef239e9db251c5
     maintainers:
@@ -2311,7 +2335,7 @@ entries:
     version: 1.0.0-rc32
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-09T15:05:47.717971963Z"
+    created: "2020-04-09T15:18:23.197308102Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 83efc5217df84bcbb108f3cd5651595f2e1e3963cd64fc14e38ed092a43cd54c
     maintainers:
@@ -2333,7 +2357,7 @@ entries:
     version: 1.0.0-rc31
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-09T15:05:47.717513186Z"
+    created: "2020-04-09T15:18:23.19663225Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 410165743b03da2842c46ee603edd4606a6c74c9d2806111896f5b23e4040562
     maintainers:
@@ -2355,7 +2379,7 @@ entries:
     version: 1.0.0-rc30
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-09T15:05:47.717066062Z"
+    created: "2020-04-09T15:18:23.195971377Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: ba70982004702e9ff1d7a49e3af011aedcdcbcc48b018c3fe6505ccca4c4b1d7
     maintainers:
@@ -2377,7 +2401,7 @@ entries:
     version: 1.0.0-rc29
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-09T15:05:47.716641986Z"
+    created: "2020-04-09T15:18:23.195279699Z"
     description: A Google Cloud Service Account Assigner Helm chart for Kubernetes
     digest: 14b3c7f717ae20a1e6b2b20120a3e036165d42a298591575b0657c62c6158fc0
     maintainers:
@@ -2400,7 +2424,7 @@ entries:
   odahu-flow-knative:
   - apiVersion: v1
     appVersion: 1.2.0-rc2
-    created: "2020-04-09T15:05:47.804370384Z"
+    created: "2020-04-09T15:18:23.270748169Z"
     description: Knative chart
     digest: 9352056ba37ce0d7212913e48ca7c0605529a910ee15c9b35f32d5a18d5400c7
     keywords:
@@ -2424,7 +2448,7 @@ entries:
     version: 1.2.0-rc2
   - apiVersion: v1
     appVersion: 1.2.0-rc1
-    created: "2020-04-09T15:05:47.802383628Z"
+    created: "2020-04-09T15:18:23.268555026Z"
     description: Knative chart
     digest: 256407d6d180d1cf6632161c050726ee5572e8529f99278abd23103bfbf13b77
     keywords:
@@ -2448,7 +2472,7 @@ entries:
     version: 1.2.0-rc1
   - apiVersion: v1
     appVersion: 1.1.2
-    created: "2020-04-09T15:05:47.800856102Z"
+    created: "2020-04-09T15:18:23.266390396Z"
     description: Knative chart
     digest: e894b0e69fe7f34d5efde96d8531ec0a84533301274a4ebf1eeb467e7fa0d393
     keywords:
@@ -2472,7 +2496,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: 1.1.1
-    created: "2020-04-09T15:05:47.799385394Z"
+    created: "2020-04-09T15:18:23.2638567Z"
     description: Knative chart
     digest: 133a333f9ebc020827f224c60c297bcf1ed3efb6e121690b5be6247f0a030b3a
     keywords:
@@ -2496,7 +2520,7 @@ entries:
     version: 1.1.1
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2020-04-09T15:05:47.79790689Z"
+    created: "2020-04-09T15:18:23.261876428Z"
     description: Knative chart
     digest: 7e593954f44b6d47203eac61841a2734aad10f01ca81cddafb3300c39ce2ab66
     keywords:
@@ -2520,7 +2544,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.1.0-rc9
-    created: "2020-04-09T15:05:47.795975663Z"
+    created: "2020-04-09T15:18:23.260405425Z"
     description: Knative chart
     digest: b7d2237dae58528a915da858511cf8680cf1729dfe304897090ac33f0c670455
     keywords:
@@ -2544,7 +2568,7 @@ entries:
     version: 1.1.0-rc9
   - apiVersion: v1
     appVersion: 1.1.0-rc8
-    created: "2020-04-09T15:05:47.792968967Z"
+    created: "2020-04-09T15:18:23.258957393Z"
     description: Knative chart
     digest: aa0642c777e80ca9284da8f63a8babdee5036b066d711c987870fc379eb66c44
     keywords:
@@ -2568,7 +2592,7 @@ entries:
     version: 1.1.0-rc8
   - apiVersion: v1
     appVersion: 1.1.0-rc7
-    created: "2020-04-09T15:05:47.790732205Z"
+    created: "2020-04-09T15:18:23.257429699Z"
     description: Knative chart
     digest: 1f5edf6cda9285928ca61b36f7e0863a1ab0d5f4acca800a01e79ec3e2c0d74c
     keywords:
@@ -2592,7 +2616,7 @@ entries:
     version: 1.1.0-rc7
   - apiVersion: v1
     appVersion: 1.1.0-rc6
-    created: "2020-04-09T15:05:47.788524361Z"
+    created: "2020-04-09T15:18:23.255911904Z"
     description: Knative chart
     digest: 1ebfcf9cd8e259d8b6a421f34307145cfe31054d96fa4b8f75406b4f2d8152ed
     keywords:
@@ -2616,7 +2640,7 @@ entries:
     version: 1.1.0-rc6
   - apiVersion: v1
     appVersion: 1.1.0-rc5
-    created: "2020-04-09T15:05:47.786327122Z"
+    created: "2020-04-09T15:18:23.254404156Z"
     description: Knative chart
     digest: fcc9c0271bbc7d442bd88b7bca5d7775f267e51f4f2bcc60a281993ad57bf67c
     keywords:
@@ -2640,7 +2664,7 @@ entries:
     version: 1.1.0-rc5
   - apiVersion: v1
     appVersion: 1.1.0-rc4
-    created: "2020-04-09T15:05:47.784106222Z"
+    created: "2020-04-09T15:18:23.252888493Z"
     description: Knative chart
     digest: 308c8effae916a3cb8df57b4ecb346377aa0a5241ffce743cdec09b17dce581a
     keywords:
@@ -2664,7 +2688,7 @@ entries:
     version: 1.1.0-rc4
   - apiVersion: v1
     appVersion: 1.1.0-rc3
-    created: "2020-04-09T15:05:47.781855Z"
+    created: "2020-04-09T15:18:23.251342288Z"
     description: Knative chart
     digest: d844f78670c41f4dff588ea7fb1a89b1011ba6a80c549f2a2b1c3037b0126591
     keywords:
@@ -2688,7 +2712,7 @@ entries:
     version: 1.1.0-rc3
   - apiVersion: v1
     appVersion: 1.1.0-rc2
-    created: "2020-04-09T15:05:47.779687304Z"
+    created: "2020-04-09T15:18:23.249545788Z"
     description: Knative chart
     digest: 74bd02ed77661896ad036e819928341dbe2eba346ebe746ae09d402abe8943f4
     keywords:
@@ -2712,7 +2736,7 @@ entries:
     version: 1.1.0-rc2
   - apiVersion: v1
     appVersion: 1.1.0-rc15
-    created: "2020-04-09T15:05:47.777451887Z"
+    created: "2020-04-09T15:18:23.247476586Z"
     description: Knative chart
     digest: fea6c0d77c3194bcba5037fc8877cb2c0a39c4c49f5b2a6506642dab766e210b
     keywords:
@@ -2736,7 +2760,7 @@ entries:
     version: 1.1.0-rc15
   - apiVersion: v1
     appVersion: 1.1.0-rc14
-    created: "2020-04-09T15:05:47.775254348Z"
+    created: "2020-04-09T15:18:23.2446559Z"
     description: Knative chart
     digest: 8bbb18ef3c71eebb0657ccc8b96b0a6bc3b2d3d06e3a8876eee8889214b2b759
     keywords:
@@ -2760,7 +2784,7 @@ entries:
     version: 1.1.0-rc14
   - apiVersion: v1
     appVersion: 1.1.0-rc13
-    created: "2020-04-09T15:05:47.772222529Z"
+    created: "2020-04-09T15:18:23.243072366Z"
     description: Knative chart
     digest: b62f15f1569155ce1f0664caa521b37ee176f02bfb9cbe78547170131313a87b
     keywords:
@@ -2784,7 +2808,7 @@ entries:
     version: 1.1.0-rc13
   - apiVersion: v1
     appVersion: 1.1.0-rc12
-    created: "2020-04-09T15:05:47.770720002Z"
+    created: "2020-04-09T15:18:23.24150803Z"
     description: Knative chart
     digest: 2baceefefcb79a411195a05c05f1bc9c136cabb447baca835b738335f12e6e11
     keywords:
@@ -2808,7 +2832,7 @@ entries:
     version: 1.1.0-rc12
   - apiVersion: v1
     appVersion: 1.1.0-rc11
-    created: "2020-04-09T15:05:47.7692071Z"
+    created: "2020-04-09T15:18:23.239969377Z"
     description: Knative chart
     digest: a8f47773673dd6a2a5a22eca65d99995071d368374aa33410d152d7139e80f24
     keywords:
@@ -2832,7 +2856,7 @@ entries:
     version: 1.1.0-rc11
   - apiVersion: v1
     appVersion: 1.1.0-rc10
-    created: "2020-04-09T15:05:47.767768092Z"
+    created: "2020-04-09T15:18:23.238479797Z"
     description: Knative chart
     digest: 734e9641c1eebd293d8a5c4f4d7aa1aca4b9fa4c9c82112d7637f1e7456cba8c
     keywords:
@@ -2856,7 +2880,7 @@ entries:
     version: 1.1.0-rc10
   - apiVersion: v1
     appVersion: 1.1.0-rc1
-    created: "2020-04-09T15:05:47.765402334Z"
+    created: "2020-04-09T15:18:23.237008953Z"
     description: Knative chart
     digest: 57f38fdee0ecf06e2912864fe7eec216dbac5a0b831bc9160e26337118b57d5a
     keywords:
@@ -2880,7 +2904,7 @@ entries:
     version: 1.1.0-rc1
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:47.763668792Z"
+    created: "2020-04-09T15:18:23.235568517Z"
     description: Knative chart
     digest: c5c4bc9a2274a7219c09c5b255bb3843765eb960e9258b58bb7ca13018ef6181
     keywords:
@@ -2904,7 +2928,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:47.76138694Z"
+    created: "2020-04-09T15:18:23.234082561Z"
     description: Knative chart
     digest: 5c6a5c3a48f237041deabbf29ae53ebb0909f612e1be9c1588b0f80f637193dd
     keywords:
@@ -2928,7 +2952,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:47.759737342Z"
+    created: "2020-04-09T15:18:23.232635352Z"
     description: Knative chart
     digest: b38ef6f56472c9e7bbd698ddb5bfcc6e6998a9be1ab1b8e8f54937e055b8222b
     keywords:
@@ -2952,7 +2976,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:47.757311936Z"
+    created: "2020-04-09T15:18:23.22972682Z"
     description: Knative chart
     digest: 4cd5a1a271900b357dea1162b119c180693a1ca1d9931ad06ae191be361c709a
     keywords:
@@ -2976,7 +3000,7 @@ entries:
     version: 1.0.0-rc36
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:47.754658448Z"
+    created: "2020-04-09T15:18:23.228245507Z"
     description: Knative chart
     digest: 1e433ab88dc82dbbe7405f6fc8fc9bf7379658a5f2073c5a04c16a8805881cb1
     keywords:
@@ -3000,7 +3024,7 @@ entries:
     version: 1.0.0-rc35
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:47.752608282Z"
+    created: "2020-04-09T15:18:23.226722434Z"
     description: Knative chart
     digest: e2db9d372e98ea147af30c65b631122e4998e7bae9e9b865b36972a6b787d36f
     keywords:
@@ -3024,7 +3048,7 @@ entries:
     version: 1.0.0-rc34
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:47.750454013Z"
+    created: "2020-04-09T15:18:23.225201531Z"
     description: Knative chart
     digest: 526eda194afc2fb58de23fab03f8cca58d440e5fc40cc445620996adb4414a98
     keywords:
@@ -3048,7 +3072,7 @@ entries:
     version: 1.0.0-rc33
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:47.748265843Z"
+    created: "2020-04-09T15:18:23.223658676Z"
     description: Knative chart
     digest: 14184f6193983c523f642b228db907aecaa7bf469f124d25ba2266f605b33ee3
     keywords:
@@ -3072,7 +3096,7 @@ entries:
     version: 1.0.0-rc32
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:47.746087093Z"
+    created: "2020-04-09T15:18:23.221618638Z"
     description: Knative chart
     digest: 66975d634147fc2c5b37daac565eed80c3120de7c793f9b0d51689103ed3aa2e
     keywords:
@@ -3096,7 +3120,7 @@ entries:
     version: 1.0.0-rc31
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:47.743893543Z"
+    created: "2020-04-09T15:18:23.220158136Z"
     description: Knative chart
     digest: b1e26af42caf16498ca4d1febda192a81007c9777ec061d3f52f24c2ca371ae5
     keywords:
@@ -3120,7 +3144,7 @@ entries:
     version: 1.0.0-rc30
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:47.741668072Z"
+    created: "2020-04-09T15:18:23.218469842Z"
     description: Knative chart
     digest: b604b6119d98b8a3ff18ba74b1ca1492de99a6da68a77e304615842cf83e6edf
     keywords:
@@ -3144,7 +3168,7 @@ entries:
     version: 1.0.0-rc29
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:47.739525732Z"
+    created: "2020-04-09T15:18:23.216729334Z"
     description: Knative chart
     digest: 06425a5ab71c74db2ebc7c0b43faefaf74c9a5b63a5a0186f2e9b028dd7d2fbd
     keywords:
@@ -3169,7 +3193,7 @@ entries:
   odahu-flow-mlflow:
   - apiVersion: v1
     appVersion: 1.2.0-rc2
-    created: "2020-04-09T15:05:47.829786024Z"
+    created: "2020-04-09T15:18:23.295958685Z"
     description: MLFlow integration for odahu-flow platform
     digest: bb5cbf174bdfe3c29d3f7ddb776537e0d337c31b76df292c4b2e05b49a05892c
     keywords:
@@ -3194,7 +3218,7 @@ entries:
     version: 1.2.0-rc2
   - apiVersion: v1
     appVersion: 1.2.0-rc1
-    created: "2020-04-09T15:05:47.829015922Z"
+    created: "2020-04-09T15:18:23.295218402Z"
     description: MLFlow integration for odahu-flow platform
     digest: a95804a2b74ddb6489297857458b84d652a882a1243b4dec3b21cb000bda723f
     keywords:
@@ -3219,7 +3243,7 @@ entries:
     version: 1.2.0-rc1
   - apiVersion: v1
     appVersion: 1.1.2
-    created: "2020-04-09T15:05:47.828122349Z"
+    created: "2020-04-09T15:18:23.294419837Z"
     description: MLFlow integration for odahu-flow platform
     digest: 55bc7d339aaca790424b53d6109f1e144cc5ce1d668fd16c348678ec76c7cade
     keywords:
@@ -3244,7 +3268,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: 1.1.1
-    created: "2020-04-09T15:05:47.827244158Z"
+    created: "2020-04-09T15:18:23.293621583Z"
     description: MLFlow integration for odahu-flow platform
     digest: cd9a56ecb7a7365e98579325315bc239b15ed5217c3a24c0f9c99a9d43222cda
     keywords:
@@ -3269,7 +3293,7 @@ entries:
     version: 1.1.1
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2020-04-09T15:05:47.82645047Z"
+    created: "2020-04-09T15:18:23.292852792Z"
     description: MLFlow integration for odahu-flow platform
     digest: f3ae0fa9c72159d68d0218187191c731ec18ecf0985ec2153642433c5d47721f
     keywords:
@@ -3294,7 +3318,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.1.0-rc9
-    created: "2020-04-09T15:05:47.824421582Z"
+    created: "2020-04-09T15:18:23.292111016Z"
     description: MLFlow integration for odahu-flow platform
     digest: df8e25ab664dc5bb8a81e50338752afb80a91b08574fabb06eba228327e135cf
     keywords:
@@ -3319,7 +3343,7 @@ entries:
     version: 1.1.0-rc9
   - apiVersion: v1
     appVersion: 1.1.0-rc8
-    created: "2020-04-09T15:05:47.823692347Z"
+    created: "2020-04-09T15:18:23.291352053Z"
     description: MLFlow integration for odahu-flow platform
     digest: 750b90f3fc29f2cd9e4df2e89e22c013ec2a60a2f2fcac43da40381592c37b3b
     keywords:
@@ -3344,7 +3368,7 @@ entries:
     version: 1.1.0-rc8
   - apiVersion: v1
     appVersion: 1.1.0-rc7
-    created: "2020-04-09T15:05:47.822967567Z"
+    created: "2020-04-09T15:18:23.290602863Z"
     description: MLFlow integration for odahu-flow platform
     digest: c90b1d01d8b5ac2a0aab4542226fdba9eb0ec577b975ce811befe6a90e68046c
     keywords:
@@ -3369,7 +3393,7 @@ entries:
     version: 1.1.0-rc7
   - apiVersion: v1
     appVersion: 1.1.0-rc6
-    created: "2020-04-09T15:05:47.822208603Z"
+    created: "2020-04-09T15:18:23.28987081Z"
     description: MLFlow integration for odahu-flow platform
     digest: c77dd8101cfa54070c4fadb261c2eab05d29d0143213c9c821a07ceae4f73184
     keywords:
@@ -3394,7 +3418,7 @@ entries:
     version: 1.1.0-rc6
   - apiVersion: v1
     appVersion: 1.1.0-rc5
-    created: "2020-04-09T15:05:47.821408163Z"
+    created: "2020-04-09T15:18:23.289168259Z"
     description: MLFlow integration for odahu-flow platform
     digest: 7e71b236e6cf762dba296c415b39c9292899d58e801053da352e408e516a919e
     keywords:
@@ -3419,7 +3443,7 @@ entries:
     version: 1.1.0-rc5
   - apiVersion: v1
     appVersion: 1.1.0-rc4
-    created: "2020-04-09T15:05:47.820660102Z"
+    created: "2020-04-09T15:18:23.288437941Z"
     description: MLFlow integration for odahu-flow platform
     digest: a65a9dca8330ff2c9dfbdccc6097fc0e2ee9e726f609dd91de2016e7343c097b
     keywords:
@@ -3444,7 +3468,7 @@ entries:
     version: 1.1.0-rc4
   - apiVersion: v1
     appVersion: 1.1.0-rc2
-    created: "2020-04-09T15:05:47.819898829Z"
+    created: "2020-04-09T15:18:23.287744429Z"
     description: MLFlow integration for odahu-flow platform
     digest: d590ab3d855eb4aa4ea4d768e0e54bbc5f6f152dc856e009192431693ea5c443
     keywords:
@@ -3469,7 +3493,7 @@ entries:
     version: 1.1.0-rc2
   - apiVersion: v1
     appVersion: 1.1.0-rc15
-    created: "2020-04-09T15:05:47.819196067Z"
+    created: "2020-04-09T15:18:23.28697744Z"
     description: MLFlow integration for odahu-flow platform
     digest: fc1c169f2676d2ada4a1b1042c713e243dbdc50bc9936b61caf1a6dbd16a9fe8
     keywords:
@@ -3494,7 +3518,7 @@ entries:
     version: 1.1.0-rc15
   - apiVersion: v1
     appVersion: 1.1.0-rc14
-    created: "2020-04-09T15:05:47.81838832Z"
+    created: "2020-04-09T15:18:23.286196526Z"
     description: MLFlow integration for odahu-flow platform
     digest: 9719b11023132b1cd59bd0cba49fa14d0f84ac1d8704b32ca74db2030b96fda7
     keywords:
@@ -3519,7 +3543,7 @@ entries:
     version: 1.1.0-rc14
   - apiVersion: v1
     appVersion: 1.1.0-rc13
-    created: "2020-04-09T15:05:47.817589551Z"
+    created: "2020-04-09T15:18:23.285392129Z"
     description: MLFlow integration for odahu-flow platform
     digest: 25e457472f5c3e52d11f286395de3a60170230b9ffb32f6834973b70384dca76
     keywords:
@@ -3544,7 +3568,7 @@ entries:
     version: 1.1.0-rc13
   - apiVersion: v1
     appVersion: 1.1.0-rc12
-    created: "2020-04-09T15:05:47.816754046Z"
+    created: "2020-04-09T15:18:23.283888264Z"
     description: MLFlow integration for odahu-flow platform
     digest: 112f447c20ee921b5dab957300d05b353c93cd2275026768c8ba24787c00ac52
     keywords:
@@ -3569,7 +3593,7 @@ entries:
     version: 1.1.0-rc12
   - apiVersion: v1
     appVersion: 1.1.0-rc11
-    created: "2020-04-09T15:05:47.815987335Z"
+    created: "2020-04-09T15:18:23.282400244Z"
     description: MLFlow integration for odahu-flow platform
     digest: ba20a4c5a86547dbff451458ad5f897bc9832a65a3bf8cd7b36931ae6a68261e
     keywords:
@@ -3594,7 +3618,7 @@ entries:
     version: 1.1.0-rc11
   - apiVersion: v1
     appVersion: 1.1.0-rc10
-    created: "2020-04-09T15:05:47.815225733Z"
+    created: "2020-04-09T15:18:23.281250672Z"
     description: MLFlow integration for odahu-flow platform
     digest: df78e0dc5f78223260136ce5e4a453eaf63749375e9fa553895f3da4602d8b0c
     keywords:
@@ -3619,7 +3643,7 @@ entries:
     version: 1.1.0-rc10
   - apiVersion: v1
     appVersion: 1.1.0-rc1
-    created: "2020-04-09T15:05:47.814432895Z"
+    created: "2020-04-09T15:18:23.280089678Z"
     description: MLFlow integration for odahu-flow platform
     digest: a0dba075755259bf20017f01d077a0032bf8808c916cf0b7719652383a2b2c78
     keywords:
@@ -3644,7 +3668,7 @@ entries:
     version: 1.1.0-rc1
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2020-04-09T15:05:47.813626876Z"
+    created: "2020-04-09T15:18:23.279035087Z"
     description: MLFlow integration for odahu-flow platform
     digest: 9abda3a3193f9adb30f6c8dbbef0219238c64abf3474d7289f37f69595c60469
     keywords:
@@ -3669,7 +3693,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2020-04-09T15:05:47.812794589Z"
+    created: "2020-04-09T15:18:23.277983122Z"
     description: MLFlow integration for odahu-flow platform
     digest: 520c06596bd98a930484b4cc2eb25bef99d5763f2e1c060a45af77c7d221b33d
     keywords:
@@ -3694,7 +3718,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2020-04-09T15:05:47.810794068Z"
+    created: "2020-04-09T15:18:23.276958021Z"
     description: MLFlow integration for odahu-flow platform
     digest: 7082c75ca87c5df11ec5cb71034ce418395d378ad12e563c7c3cfa4130b9a793
     keywords:
@@ -3719,7 +3743,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2020-04-09T15:05:47.809510073Z"
+    created: "2020-04-09T15:18:23.275921911Z"
     description: MLFlow integration for odahu-flow platform
     digest: 3bbe23e26e6f080e0f971afa1735cca94cdfb6bd17ccbd57b368d4df9e194059
     keywords:
@@ -3744,7 +3768,7 @@ entries:
     version: 1.0.0-rc7
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2020-04-09T15:05:47.808438305Z"
+    created: "2020-04-09T15:18:23.274903405Z"
     description: MLFlow integration for odahu-flow platform
     digest: 06d76fdc17725d6085d32b8362069e15678c52d4fa22828b0068885c99fda446
     keywords:
@@ -3769,7 +3793,7 @@ entries:
     version: 1.0.0-rc36
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2020-04-09T15:05:47.807316231Z"
+    created: "2020-04-09T15:18:23.27383259Z"
     description: MLFlow integration for odahu-flow platform
     digest: b80c84fb0e1f1dc61ea00b505a32d91d3483da0817be3cf46ca4a93a417b9953
     keywords:
@@ -3794,7 +3818,7 @@ entries:
     version: 1.0.0-rc35
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2020-04-09T15:05:47.806422283Z"
+    created: "2020-04-09T15:18:23.272811479Z"
     description: MLFlow integration for odahu-flow platform
     digest: 701881c2fc66122cf2fe7ee11b5452c43b0d8553ad993fe027ea5a013a7b7cbb
     keywords:
@@ -3819,7 +3843,7 @@ entries:
     version: 1.0.0-rc34
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2020-04-09T15:05:47.805231784Z"
+    created: "2020-04-09T15:18:23.271789991Z"
     description: MLFlow integration for odahu-flow platform
     digest: 71ef169c53aa5065f2de211a9fb09c7f661e7ac64d4a19e570df41371b2ca4be
     keywords:
@@ -3845,7 +3869,7 @@ entries:
   odahu-flow-monitoring:
   - apiVersion: v2
     appVersion: 1.2.0-rc2
-    created: "2020-04-09T15:05:48.771185825Z"
+    created: "2020-04-09T15:18:24.243305179Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -3877,7 +3901,7 @@ entries:
     version: 1.2.0-rc2
   - apiVersion: v2
     appVersion: 1.2.0-rc1
-    created: "2020-04-09T15:05:48.738451825Z"
+    created: "2020-04-09T15:18:24.204359754Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -3909,7 +3933,7 @@ entries:
     version: 1.2.0-rc1
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2020-04-09T15:05:48.704362874Z"
+    created: "2020-04-09T15:18:24.173538336Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -3941,7 +3965,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2020-04-09T15:05:48.6646951Z"
+    created: "2020-04-09T15:18:24.132265784Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -3973,7 +3997,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-04-09T15:05:48.626271857Z"
+    created: "2020-04-09T15:18:24.095606482Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4005,7 +4029,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.1.0-rc9
-    created: "2020-04-09T15:05:48.593523389Z"
+    created: "2020-04-09T15:18:24.054634888Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4037,7 +4061,7 @@ entries:
     version: 1.1.0-rc9
   - apiVersion: v1
     appVersion: 1.1.0-rc8
-    created: "2020-04-09T15:05:48.571974789Z"
+    created: "2020-04-09T15:18:24.024837539Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4069,7 +4093,7 @@ entries:
     version: 1.1.0-rc8
   - apiVersion: v1
     appVersion: 1.1.0-rc7
-    created: "2020-04-09T15:05:48.540978422Z"
+    created: "2020-04-09T15:18:24.003987921Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4101,7 +4125,7 @@ entries:
     version: 1.1.0-rc7
   - apiVersion: v1
     appVersion: 1.1.0-rc6
-    created: "2020-04-09T15:05:48.519447738Z"
+    created: "2020-04-09T15:18:23.982235371Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4133,7 +4157,7 @@ entries:
     version: 1.1.0-rc6
   - apiVersion: v1
     appVersion: 1.1.0-rc5
-    created: "2020-04-09T15:05:48.492298849Z"
+    created: "2020-04-09T15:18:23.957158903Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4165,7 +4189,7 @@ entries:
     version: 1.1.0-rc5
   - apiVersion: v1
     appVersion: 1.1.0-rc4
-    created: "2020-04-09T15:05:48.462484987Z"
+    created: "2020-04-09T15:18:23.932783465Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4197,7 +4221,7 @@ entries:
     version: 1.1.0-rc4
   - apiVersion: v1
     appVersion: 1.1.0-rc3
-    created: "2020-04-09T15:05:48.436230213Z"
+    created: "2020-04-09T15:18:23.90060989Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4229,7 +4253,7 @@ entries:
     version: 1.1.0-rc3
   - apiVersion: v1
     appVersion: 1.1.0-rc2
-    created: "2020-04-09T15:05:48.406834696Z"
+    created: "2020-04-09T15:18:23.877350138Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4261,7 +4285,7 @@ entries:
     version: 1.1.0-rc2
   - apiVersion: v2
     appVersion: 1.1.0-rc15
-    created: "2020-04-09T15:05:48.38040612Z"
+    created: "2020-04-09T15:18:23.854409929Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4293,7 +4317,7 @@ entries:
     version: 1.1.0-rc15
   - apiVersion: v2
     appVersion: 1.1.0-rc14
-    created: "2020-04-09T15:05:48.345256792Z"
+    created: "2020-04-09T15:18:23.821164451Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4325,7 +4349,7 @@ entries:
     version: 1.1.0-rc14
   - apiVersion: v2
     appVersion: 1.1.0-rc13
-    created: "2020-04-09T15:05:48.30140314Z"
+    created: "2020-04-09T15:18:23.781879856Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4357,7 +4381,7 @@ entries:
     version: 1.1.0-rc13
   - apiVersion: v2
     appVersion: 1.1.0-rc12
-    created: "2020-04-09T15:05:48.264869177Z"
+    created: "2020-04-09T15:18:23.744923691Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4389,7 +4413,7 @@ entries:
     version: 1.1.0-rc12
   - apiVersion: v1
     appVersion: 1.1.0-rc11
-    created: "2020-04-09T15:05:48.225465395Z"
+    created: "2020-04-09T15:18:23.702440366Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4421,7 +4445,7 @@ entries:
     version: 1.1.0-rc11
   - apiVersion: v1
     appVersion: 1.1.0-rc10
-    created: "2020-04-09T15:05:48.200166255Z"
+    created: "2020-04-09T15:18:23.670663856Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4453,7 +4477,7 @@ entries:
     version: 1.1.0-rc10
   - apiVersion: v1
     appVersion: 1.1.0-rc1
-    created: "2020-04-09T15:05:48.169537469Z"
+    created: "2020-04-09T15:18:23.646601301Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4485,7 +4509,7 @@ entries:
     version: 1.1.0-rc1
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.141886775Z"
+    created: "2020-04-09T15:18:23.618322999Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4517,7 +4541,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.120503284Z"
+    created: "2020-04-09T15:18:23.586194898Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4549,7 +4573,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.095681227Z"
+    created: "2020-04-09T15:18:23.557933372Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4581,7 +4605,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.071803687Z"
+    created: "2020-04-09T15:18:23.533632234Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4613,7 +4637,7 @@ entries:
     version: 1.0.0-rc36
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.041464402Z"
+    created: "2020-04-09T15:18:23.508839455Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4645,7 +4669,7 @@ entries:
     version: 1.0.0-rc35
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.014622937Z"
+    created: "2020-04-09T15:18:23.48100559Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4677,7 +4701,7 @@ entries:
     version: 1.0.0-rc34
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.990013977Z"
+    created: "2020-04-09T15:18:23.453324498Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4709,7 +4733,7 @@ entries:
     version: 1.0.0-rc33
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.960232284Z"
+    created: "2020-04-09T15:18:23.428051394Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4741,7 +4765,7 @@ entries:
     version: 1.0.0-rc32
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.936738339Z"
+    created: "2020-04-09T15:18:23.398763869Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4773,7 +4797,7 @@ entries:
     version: 1.0.0-rc31
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.914406646Z"
+    created: "2020-04-09T15:18:23.376344539Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4805,7 +4829,7 @@ entries:
     version: 1.0.0-rc30
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.882986304Z"
+    created: "2020-04-09T15:18:23.353944491Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4837,7 +4861,7 @@ entries:
     version: 1.0.0-rc29
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:47.855941503Z"
+    created: "2020-04-09T15:18:23.322801923Z"
     dependencies:
     - alias: odahuflow-grafana
       name: grafana
@@ -4870,7 +4894,7 @@ entries:
   odahu-flow-opa:
   - apiVersion: v1
     appVersion: 1.2.0-rc2
-    created: "2020-04-09T15:05:48.786339325Z"
+    created: "2020-04-09T15:18:24.261319665Z"
     description: open-policy-agent for odahu-flow authorization
     digest: e24681556c99a33ca9a07c001eb939638ba05444da6c7d35603ac42f81997c72
     keywords:
@@ -4894,7 +4918,7 @@ entries:
     version: 1.2.0-rc2
   - apiVersion: v1
     appVersion: 1.2.0-rc1
-    created: "2020-04-09T15:05:48.785497044Z"
+    created: "2020-04-09T15:18:24.260526671Z"
     description: open-policy-agent for odahu-flow authorization
     digest: a222bd872188fe381bea5f79691c7e81037a94a8ba503e92d94657bb6a55142c
     keywords:
@@ -4918,7 +4942,7 @@ entries:
     version: 1.2.0-rc1
   - apiVersion: v1
     appVersion: 1.1.2
-    created: "2020-04-09T15:05:48.784707814Z"
+    created: "2020-04-09T15:18:24.259691294Z"
     description: open-policy-agent for odahu-flow authorization
     digest: d52dec0a89bfbfe4390cbccbe25e2d3fbc4d80623b290ae3457c3a341429e45f
     keywords:
@@ -4942,7 +4966,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: 1.1.1
-    created: "2020-04-09T15:05:48.78392321Z"
+    created: "2020-04-09T15:18:24.258864367Z"
     description: open-policy-agent for odahu-flow authorization
     digest: c94b234e37b4a06be6c91d5da02a5002fad96c7bb1572814ea3d8f9c1c538845
     keywords:
@@ -4966,7 +4990,7 @@ entries:
     version: 1.1.1
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2020-04-09T15:05:48.783102229Z"
+    created: "2020-04-09T15:18:24.257500712Z"
     description: open-policy-agent for odahu-flow authorization
     digest: 92e7f638d973344bb41bc81ae3b38dc49092bfe9a68e73271f6f1c1ba9bce4b7
     keywords:
@@ -4990,7 +5014,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.1.0-rc9
-    created: "2020-04-09T15:05:48.782274225Z"
+    created: "2020-04-09T15:18:24.255623126Z"
     description: open-policy-agent for odahu-flow authorization
     digest: bed8eac5e34d53383117323e46b97ce86b548fede7eb79a9514f8240886915dd
     keywords:
@@ -5014,7 +5038,7 @@ entries:
     version: 1.1.0-rc9
   - apiVersion: v1
     appVersion: 1.1.0-rc8
-    created: "2020-04-09T15:05:48.78144524Z"
+    created: "2020-04-09T15:18:24.254532125Z"
     description: open-policy-agent for odahu-flow authorization
     digest: b5863a55592005c241d5b49472529e207373bb12f3ec006cb798ce8e7412ccb1
     keywords:
@@ -5038,7 +5062,7 @@ entries:
     version: 1.1.0-rc8
   - apiVersion: v1
     appVersion: 1.1.0-rc7
-    created: "2020-04-09T15:05:48.780509184Z"
+    created: "2020-04-09T15:18:24.253347265Z"
     description: open-policy-agent for odahu-flow authorization
     digest: 72204547a44dbd196b8fbef683236f538de298bb000b5216fe934e8cd2e27a68
     keywords:
@@ -5062,7 +5086,7 @@ entries:
     version: 1.1.0-rc7
   - apiVersion: v1
     appVersion: 1.1.0-rc6
-    created: "2020-04-09T15:05:48.779759979Z"
+    created: "2020-04-09T15:18:24.252196667Z"
     description: open-policy-agent for odahu-flow authorization
     digest: 6473deb63889989e0ad2e9381b3011716077d8ece7f984defcedf2499e255b4e
     keywords:
@@ -5086,7 +5110,7 @@ entries:
     version: 1.1.0-rc6
   - apiVersion: v1
     appVersion: 1.1.0-rc15
-    created: "2020-04-09T15:05:48.777870471Z"
+    created: "2020-04-09T15:18:24.251027505Z"
     description: open-policy-agent for odahu-flow authorization
     digest: 36113afbca5f50aef77b6b33d40b7440e06ab8c731da55597217f49be9c42f80
     keywords:
@@ -5110,7 +5134,7 @@ entries:
     version: 1.1.0-rc15
   - apiVersion: v1
     appVersion: 1.1.0-rc14
-    created: "2020-04-09T15:05:48.77704115Z"
+    created: "2020-04-09T15:18:24.249721511Z"
     description: open-policy-agent for odahu-flow authorization
     digest: 52258d8b531a44f07f624e05caafebfc50c865182bfc9caf5301c2bacf6570ab
     keywords:
@@ -5134,7 +5158,7 @@ entries:
     version: 1.1.0-rc14
   - apiVersion: v1
     appVersion: 1.1.0-rc13
-    created: "2020-04-09T15:05:48.776159488Z"
+    created: "2020-04-09T15:18:24.248465754Z"
     description: open-policy-agent for odahu-flow authorization
     digest: 8f6aaf92a18614d0fa88c350c0b37e95ddf561c874a5c7e75bf133a58046b212
     keywords:
@@ -5158,7 +5182,7 @@ entries:
     version: 1.1.0-rc13
   - apiVersion: v1
     appVersion: 1.1.0-rc12
-    created: "2020-04-09T15:05:48.774888354Z"
+    created: "2020-04-09T15:18:24.247174645Z"
     description: open-policy-agent for odahu-flow authorization
     digest: f38f4482ed4c16c9fdc4e0ad00be75fc47ecf182834788e1ef62e86872545617
     keywords:
@@ -5182,7 +5206,7 @@ entries:
     version: 1.1.0-rc12
   - apiVersion: v1
     appVersion: 1.1.0-rc11
-    created: "2020-04-09T15:05:48.773593862Z"
+    created: "2020-04-09T15:18:24.245840538Z"
     description: open-policy-agent for odahu-flow authorization
     digest: 0dd9ee76292c63de0d42917bfc258799466d7232b1e014bb8e59856322b079f6
     keywords:
@@ -5206,7 +5230,7 @@ entries:
     version: 1.1.0-rc11
   - apiVersion: v1
     appVersion: 1.1.0-rc10
-    created: "2020-04-09T15:05:48.77239591Z"
+    created: "2020-04-09T15:18:24.244585206Z"
     description: open-policy-agent for odahu-flow authorization
     digest: d039f71886210d67c7f9a3f1e468e6ec3dbf9651907d4595417bfac6560b8b63
     keywords:
@@ -5231,7 +5255,7 @@ entries:
   odahu-flow-packagers:
   - apiVersion: v1
     appVersion: 1.2.0-rc2
-    created: "2020-04-09T15:05:48.800941141Z"
+    created: "2020-04-09T15:18:24.27866798Z"
     description: Odahu stack
     digest: 92ec662afc2a0de497e01c9611997f8e353d480b8c99de395fdf0fcd1d284961
     keywords:
@@ -5255,7 +5279,7 @@ entries:
     version: 1.2.0-rc2
   - apiVersion: v1
     appVersion: 1.1.2
-    created: "2020-04-09T15:05:48.800300323Z"
+    created: "2020-04-09T15:18:24.277676404Z"
     description: Odahu stack
     digest: 89a0d115a4cc2e4b5f53c7dde45dd60227f88ae4199dad94251d44a614db70a4
     keywords:
@@ -5279,7 +5303,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: 1.1.1
-    created: "2020-04-09T15:05:48.799716519Z"
+    created: "2020-04-09T15:18:24.276751442Z"
     description: Odahu stack
     digest: c9c30cf99cab30db784332d007b947ec7544333a4e60f92a2cf9dd793c5994ce
     keywords:
@@ -5303,7 +5327,7 @@ entries:
     version: 1.1.1
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2020-04-09T15:05:48.79912332Z"
+    created: "2020-04-09T15:18:24.27583584Z"
     description: Odahu stack
     digest: 05846b1c53304dadb92a783fcca3511d6c280fa90902ade94d4b47594c1437c0
     keywords:
@@ -5327,7 +5351,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.1.0-rc9
-    created: "2020-04-09T15:05:48.798539222Z"
+    created: "2020-04-09T15:18:24.274938666Z"
     description: Odahu stack
     digest: 357534cfdbe98800498508273b9e4134f3b27c1923e91e09763b9e42fc0ecbac
     keywords:
@@ -5351,7 +5375,7 @@ entries:
     version: 1.1.0-rc9
   - apiVersion: v1
     appVersion: 1.1.0-rc8
-    created: "2020-04-09T15:05:48.797878187Z"
+    created: "2020-04-09T15:18:24.274114738Z"
     description: Odahu stack
     digest: 0951a6a88a3f9c9fb5e2b02fd3fd5265a2b762c700aa6ca8e700fecf3b4bc2ff
     keywords:
@@ -5375,7 +5399,7 @@ entries:
     version: 1.1.0-rc8
   - apiVersion: v1
     appVersion: 1.1.0-rc7
-    created: "2020-04-09T15:05:48.797422739Z"
+    created: "2020-04-09T15:18:24.273321214Z"
     description: Odahu stack
     digest: 1801f113b8c2665e9c1fd575f18fcaa50884a212ccba2f5880ff3f390fadb73b
     keywords:
@@ -5399,7 +5423,7 @@ entries:
     version: 1.1.0-rc7
   - apiVersion: v1
     appVersion: 1.1.0-rc6
-    created: "2020-04-09T15:05:48.796952812Z"
+    created: "2020-04-09T15:18:24.272547216Z"
     description: Odahu stack
     digest: 044fd494b45c76ad49fc3a2ad3483d89d400eef8a5540fdb46f3eac1e68d329e
     keywords:
@@ -5423,7 +5447,7 @@ entries:
     version: 1.1.0-rc6
   - apiVersion: v1
     appVersion: 1.1.0-rc5
-    created: "2020-04-09T15:05:48.79640816Z"
+    created: "2020-04-09T15:18:24.271796449Z"
     description: Odahu stack
     digest: b28a9699583c1d4d7e4957fe26a9de0ba96ef4c4d8d776c0a90e8fd7856ab60b
     keywords:
@@ -5447,7 +5471,7 @@ entries:
     version: 1.1.0-rc5
   - apiVersion: v1
     appVersion: 1.1.0-rc4
-    created: "2020-04-09T15:05:48.79591489Z"
+    created: "2020-04-09T15:18:24.271004957Z"
     description: Odahu stack
     digest: 54e363b5565cac3bbb055acaf7cdd3fe5af33993cb6012b6e00c20551fa74e7a
     keywords:
@@ -5471,7 +5495,7 @@ entries:
     version: 1.1.0-rc4
   - apiVersion: v1
     appVersion: 1.1.0-rc2
-    created: "2020-04-09T15:05:48.795461644Z"
+    created: "2020-04-09T15:18:24.269635799Z"
     description: Odahu stack
     digest: 505a138e592d1bb1b4270a643e0e4ab1ea41d600c3ad4effb72242aac3dd54e1
     keywords:
@@ -5495,7 +5519,7 @@ entries:
     version: 1.1.0-rc2
   - apiVersion: v1
     appVersion: 1.1.0-rc15
-    created: "2020-04-09T15:05:48.794973814Z"
+    created: "2020-04-09T15:18:24.268721884Z"
     description: Odahu stack
     digest: d5edd27e410445eea6fb5d07357316aa7ae9750de4bb57df454aeea7c2e62fee
     keywords:
@@ -5519,7 +5543,7 @@ entries:
     version: 1.1.0-rc15
   - apiVersion: v1
     appVersion: 1.1.0-rc14
-    created: "2020-04-09T15:05:48.794342178Z"
+    created: "2020-04-09T15:18:24.268146912Z"
     description: Odahu stack
     digest: 3324ab67a787f0e44695dd55243003a92660844d4671523b72dbd7a7ef387022
     keywords:
@@ -5543,7 +5567,7 @@ entries:
     version: 1.1.0-rc14
   - apiVersion: v1
     appVersion: 1.1.0-rc13
-    created: "2020-04-09T15:05:48.793746445Z"
+    created: "2020-04-09T15:18:24.267564532Z"
     description: Odahu stack
     digest: b6ebf3fbb3d24dbb942f623e25441d3167e49c291b3096076d7b71b7313e84c2
     keywords:
@@ -5567,7 +5591,7 @@ entries:
     version: 1.1.0-rc13
   - apiVersion: v1
     appVersion: 1.1.0-rc12
-    created: "2020-04-09T15:05:48.793178954Z"
+    created: "2020-04-09T15:18:24.266984163Z"
     description: Odahu stack
     digest: fc07ee44bddb7f43fb37f239bc53e5872a8f73ac1429f18e38530be66171ca32
     keywords:
@@ -5591,7 +5615,7 @@ entries:
     version: 1.1.0-rc12
   - apiVersion: v1
     appVersion: 1.1.0-rc11
-    created: "2020-04-09T15:05:48.792557729Z"
+    created: "2020-04-09T15:18:24.266399703Z"
     description: Odahu stack
     digest: ec5a142bd551eabc2f12efbb2ade5ed764857d0a7cf2ca1bda74bfdba1c9f132
     keywords:
@@ -5615,7 +5639,7 @@ entries:
     version: 1.1.0-rc11
   - apiVersion: v1
     appVersion: 1.1.0-rc10
-    created: "2020-04-09T15:05:48.7910721Z"
+    created: "2020-04-09T15:18:24.265762732Z"
     description: Odahu stack
     digest: 96ee3cfc912e3f25795a986545c77bf5bb6deeedb6ab83a8b3f65a4828e6a540
     keywords:
@@ -5639,7 +5663,7 @@ entries:
     version: 1.1.0-rc10
   - apiVersion: v1
     appVersion: 1.1.0-rc1
-    created: "2020-04-09T15:05:48.790232675Z"
+    created: "2020-04-09T15:18:24.265270968Z"
     description: Odahu stack
     digest: 2de651e3a87939e645ac698fe73d7250cb0cdd8a858cebb054dccb9d30c830af
     keywords:
@@ -5663,7 +5687,7 @@ entries:
     version: 1.1.0-rc1
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.789740449Z"
+    created: "2020-04-09T15:18:24.264813555Z"
     description: Odahu stack
     digest: 635ccbf5ce57f6fc54a51cdd07c20ba347b0d28b8729260922905156b6b01aa0
     keywords:
@@ -5687,7 +5711,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.789251782Z"
+    created: "2020-04-09T15:18:24.264335095Z"
     description: Odahu stack
     digest: 3248b88bc41a2fb350aeceabd21da16d72d78f2033ea25d7ae08cfcb23e2da83
     keywords:
@@ -5711,7 +5735,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.788788762Z"
+    created: "2020-04-09T15:18:24.263880098Z"
     description: Odahu stack
     digest: 24bb752139e1c0d25f540279a8f8406a71412d186fd5e99557a5c44d94860580
     keywords:
@@ -5735,7 +5759,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.788310641Z"
+    created: "2020-04-09T15:18:24.263401396Z"
     description: Odahu stack
     digest: 1cd09ba9dbd04a6c08ab161992ac5b2b296725855e835cecb71e8445f833018f
     keywords:
@@ -5759,7 +5783,7 @@ entries:
     version: 1.0.0-rc36
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.787766857Z"
+    created: "2020-04-09T15:18:24.262908591Z"
     description: Odahu stack
     digest: 1a55fad702d2263bd57b9cfb49d740deba257a5fdc4443c3cfbcae1e5d203587
     keywords:
@@ -5783,7 +5807,7 @@ entries:
     version: 1.0.0-rc35
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.787258044Z"
+    created: "2020-04-09T15:18:24.262382053Z"
     description: Odahu stack
     digest: 603663e9437efa6fc5e9c4149e37d85d296ef880dd03d6493cefa17e39a8d838
     keywords:
@@ -5807,7 +5831,7 @@ entries:
     version: 1.0.0-rc34
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.786803725Z"
+    created: "2020-04-09T15:18:24.261765387Z"
     description: Legion stack
     digest: 4ad7513eb971ef06af01cbedb6bc9d7dd76a3ef87d2d78ba38c37bfac96e0455
     keywords:
@@ -5832,7 +5856,7 @@ entries:
   odahu-flow-rest-packager:
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.801840621Z"
+    created: "2020-04-09T15:18:24.280129505Z"
     description: Legion stack
     digest: 0f282152c5c7d3c0339fa92f17befafcee57e93ef79c20078e5fc9c17bbda21d
     keywords:
@@ -5856,7 +5880,7 @@ entries:
     version: 1.0.0-rc3
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.801382184Z"
+    created: "2020-04-09T15:18:24.279404264Z"
     description: Legion stack
     digest: 88d89c5140c868cf2497d3dfe3a5f667568a00bf697c795d4295c545197cfe48
     keywords:
@@ -5881,7 +5905,7 @@ entries:
   odahu-flow-tekton:
   - apiVersion: v1
     appVersion: 1.2.0-rc2
-    created: "2020-04-09T15:05:48.82977508Z"
+    created: "2020-04-09T15:18:24.310716159Z"
     description: Tekton chart
     digest: 0ab5c2bceb606efcecb8e422ef21f848ff2dc1fa3bfa93301e49d38d7c317666
     keywords:
@@ -5906,7 +5930,7 @@ entries:
     version: 1.2.0-rc2
   - apiVersion: v1
     appVersion: 1.2.0-rc1
-    created: "2020-04-09T15:05:48.829094676Z"
+    created: "2020-04-09T15:18:24.309631214Z"
     description: Tekton chart
     digest: 5a88027dd7a9406b996d9d1bfc4461ddbb39b57210409c1ec2e154891909eb4d
     keywords:
@@ -5931,7 +5955,7 @@ entries:
     version: 1.2.0-rc1
   - apiVersion: v1
     appVersion: 1.1.2
-    created: "2020-04-09T15:05:48.828276187Z"
+    created: "2020-04-09T15:18:24.308574568Z"
     description: Tekton chart
     digest: ac056db52c83a1876d3cf42e98d5b7609ba65b42e4070b0ba97d1e1ee5154470
     keywords:
@@ -5956,7 +5980,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: 1.1.1
-    created: "2020-04-09T15:05:48.827197678Z"
+    created: "2020-04-09T15:18:24.307531321Z"
     description: Tekton chart
     digest: 2ff8f42647555d64d3e6047646b4f5307d48b20618f152e8d83aa096ffe879b1
     keywords:
@@ -5981,7 +6005,7 @@ entries:
     version: 1.1.1
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2020-04-09T15:05:48.826499372Z"
+    created: "2020-04-09T15:18:24.306445992Z"
     description: Tekton chart
     digest: 0369369f1e8921fea57bbf5b589ed7a99c1d7be6658f08172a01a5834c80b423
     keywords:
@@ -6006,7 +6030,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.1.0-rc9
-    created: "2020-04-09T15:05:48.82580146Z"
+    created: "2020-04-09T15:18:24.30535327Z"
     description: Tekton chart
     digest: 85127ead367ad31d11e6fa86d59336b5a19707f3a9cb6ae7c323682c1aec62f5
     keywords:
@@ -6031,7 +6055,7 @@ entries:
     version: 1.1.0-rc9
   - apiVersion: v1
     appVersion: 1.1.0-rc8
-    created: "2020-04-09T15:05:48.82475738Z"
+    created: "2020-04-09T15:18:24.304275237Z"
     description: Tekton chart
     digest: 96319203626bae1d8d8dd956e9963cf2b11a3306058ec174c23f91e2d636edfb
     keywords:
@@ -6056,7 +6080,7 @@ entries:
     version: 1.1.0-rc8
   - apiVersion: v1
     appVersion: 1.1.0-rc7
-    created: "2020-04-09T15:05:48.8237299Z"
+    created: "2020-04-09T15:18:24.302967545Z"
     description: Tekton chart
     digest: a44ed4c9db8026e4f1eafaf927457d20a88a4e4b31c09a3b60236b9fedac826c
     keywords:
@@ -6081,7 +6105,7 @@ entries:
     version: 1.1.0-rc7
   - apiVersion: v1
     appVersion: 1.1.0-rc6
-    created: "2020-04-09T15:05:48.822827617Z"
+    created: "2020-04-09T15:18:24.301296759Z"
     description: Tekton chart
     digest: f97b16c2e1ff981dd62735eb2c4d6146bdf2a4537b086ba532c359581457c9dd
     keywords:
@@ -6106,7 +6130,7 @@ entries:
     version: 1.1.0-rc6
   - apiVersion: v1
     appVersion: 1.1.0-rc5
-    created: "2020-04-09T15:05:48.822170152Z"
+    created: "2020-04-09T15:18:24.300647491Z"
     description: Tekton chart
     digest: d100e1924542aa6ccfff3e685ad707a6a2a722867baff5c2b7069c8dee1bd876
     keywords:
@@ -6131,7 +6155,7 @@ entries:
     version: 1.1.0-rc5
   - apiVersion: v1
     appVersion: 1.1.0-rc4
-    created: "2020-04-09T15:05:48.821503622Z"
+    created: "2020-04-09T15:18:24.299982978Z"
     description: Tekton chart
     digest: 49554a715986fa159a7a2e6db7275f3bb53b1992b0f687eed683164d032d0fdb
     keywords:
@@ -6156,7 +6180,7 @@ entries:
     version: 1.1.0-rc4
   - apiVersion: v1
     appVersion: 1.1.0-rc3
-    created: "2020-04-09T15:05:48.820674612Z"
+    created: "2020-04-09T15:18:24.299353598Z"
     description: Tekton chart
     digest: 60951e4bdc89155165ca1f4812997d9171c40f41f42a6c5171a9c51628d907fb
     keywords:
@@ -6181,7 +6205,7 @@ entries:
     version: 1.1.0-rc3
   - apiVersion: v1
     appVersion: 1.1.0-rc2
-    created: "2020-04-09T15:05:48.819757864Z"
+    created: "2020-04-09T15:18:24.298722525Z"
     description: Tekton chart
     digest: eb17f066362726a655881042cc3fc4c42290fd1934170353e8393f3fb8d57575
     keywords:
@@ -6206,7 +6230,7 @@ entries:
     version: 1.1.0-rc2
   - apiVersion: v1
     appVersion: 1.1.0-rc15
-    created: "2020-04-09T15:05:48.818703916Z"
+    created: "2020-04-09T15:18:24.298058367Z"
     description: Tekton chart
     digest: 699aad40dbe04a234360d842571f0b774d7afde1a24f3331b36e229c4bd57848
     keywords:
@@ -6231,7 +6255,7 @@ entries:
     version: 1.1.0-rc15
   - apiVersion: v1
     appVersion: 1.1.0-rc14
-    created: "2020-04-09T15:05:48.817257556Z"
+    created: "2020-04-09T15:18:24.297414504Z"
     description: Tekton chart
     digest: 94f60d287fd4c452df3ad27caa4fcda7d256e1bb4f525b1d378a4ded0cff98ef
     keywords:
@@ -6256,7 +6280,7 @@ entries:
     version: 1.1.0-rc14
   - apiVersion: v1
     appVersion: 1.1.0-rc13
-    created: "2020-04-09T15:05:48.816608639Z"
+    created: "2020-04-09T15:18:24.296741438Z"
     description: Tekton chart
     digest: c5bcbf1494105e812ecea7550f70326dcab44c02d4a2f2397e278e9c16c09d79
     keywords:
@@ -6281,7 +6305,7 @@ entries:
     version: 1.1.0-rc13
   - apiVersion: v1
     appVersion: 1.1.0-rc12
-    created: "2020-04-09T15:05:48.81592343Z"
+    created: "2020-04-09T15:18:24.296113628Z"
     description: Tekton chart
     digest: fe1f8672d95c4a7fe4302f34642f3418d7a4570af2b6ac8c649a67430dc020f9
     keywords:
@@ -6306,7 +6330,7 @@ entries:
     version: 1.1.0-rc12
   - apiVersion: v1
     appVersion: 1.1.0-rc11
-    created: "2020-04-09T15:05:48.814956853Z"
+    created: "2020-04-09T15:18:24.295420777Z"
     description: Tekton chart
     digest: 19c33c5a5f5b9aba6b0443c10bcf7f338b2ce86538034dc3c2aa7ea7e8b260ff
     keywords:
@@ -6331,7 +6355,7 @@ entries:
     version: 1.1.0-rc11
   - apiVersion: v1
     appVersion: 1.1.0-rc10
-    created: "2020-04-09T15:05:48.813879756Z"
+    created: "2020-04-09T15:18:24.294631966Z"
     description: Tekton chart
     digest: 1db07fb12100fce4f79737f21b05c97a9ac99afc2b2eee59df2c8932fe58e336
     keywords:
@@ -6356,7 +6380,7 @@ entries:
     version: 1.1.0-rc10
   - apiVersion: v1
     appVersion: 1.1.0-rc1
-    created: "2020-04-09T15:05:48.81285497Z"
+    created: "2020-04-09T15:18:24.293872033Z"
     description: Tekton chart
     digest: 5ef7566b707c8a9124a73d73bc3cc0ee87b98b17f0effcf38afa791d9d28f52e
     keywords:
@@ -6381,7 +6405,7 @@ entries:
     version: 1.1.0-rc1
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:48.812014821Z"
+    created: "2020-04-09T15:18:24.292954839Z"
     description: Tekton chart
     digest: 1a42be6d1ae5080e91b68bdb0b7b43a5f9a3012f480fe4cf447d547065a437c2
     keywords:
@@ -6406,7 +6430,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:48.811370142Z"
+    created: "2020-04-09T15:18:24.292202661Z"
     description: Tekton chart
     digest: c4f0e2d59b6c840581eec00b0a2ef96fca2538dabdefd10f7965428b20f60c9c
     keywords:
@@ -6431,7 +6455,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:48.81041389Z"
+    created: "2020-04-09T15:18:24.291510602Z"
     description: Tekton chart
     digest: 972b89f57661c8d43b1e940ca5a9449780e5e66e95469da23f15f2d8df9ed949
     keywords:
@@ -6456,7 +6480,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:48.809370428Z"
+    created: "2020-04-09T15:18:24.290519975Z"
     description: Tekton chart
     digest: 3bb061a229ec61717da77082e8d6a67f4a8da7f1065bc59e74ba57999c8477d8
     keywords:
@@ -6481,7 +6505,7 @@ entries:
     version: 1.0.0-rc36
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:48.808611664Z"
+    created: "2020-04-09T15:18:24.289677012Z"
     description: Tekton chart
     digest: c0a2c8d6fc2c51a12ac7043b58305595bb2bbf732921b8eb753b494fd5e220a0
     keywords:
@@ -6506,7 +6530,7 @@ entries:
     version: 1.0.0-rc35
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:48.807906816Z"
+    created: "2020-04-09T15:18:24.287773019Z"
     description: Tekton chart
     digest: 61aafaee9e1099f29a9d25e1924ad28a35085f92e1cde29a68a9bb7559977078
     keywords:
@@ -6531,7 +6555,7 @@ entries:
     version: 1.0.0-rc34
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:48.807261923Z"
+    created: "2020-04-09T15:18:24.286712377Z"
     description: Tekton chart
     digest: 7a74cf2d6591512a6c53804111ec1abbed8fdaed3d2ac46f0191e335043ec470
     keywords:
@@ -6556,7 +6580,7 @@ entries:
     version: 1.0.0-rc33
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:48.806564258Z"
+    created: "2020-04-09T15:18:24.285618233Z"
     description: Tekton chart
     digest: f285f04fd991756e647342b93f936cd8e2cdd66ccb4f11bf6de71c7e61389f0b
     keywords:
@@ -6581,7 +6605,7 @@ entries:
     version: 1.0.0-rc32
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:48.805817621Z"
+    created: "2020-04-09T15:18:24.284543736Z"
     description: Tekton chart
     digest: bc421dab3de1c6c681194d843ed46a38b47f43170ef85b1a07987c0f3b6bee87
     keywords:
@@ -6606,7 +6630,7 @@ entries:
     version: 1.0.0-rc31
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:48.805143383Z"
+    created: "2020-04-09T15:18:24.283393414Z"
     description: Tekton chart
     digest: 5ea482dd58649eb079cb92c92a0ff0bcf9b7b4b31e1cfbb240b46996e680d327
     keywords:
@@ -6631,7 +6655,7 @@ entries:
     version: 1.0.0-rc30
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:48.804354907Z"
+    created: "2020-04-09T15:18:24.282322585Z"
     description: Tekton chart
     digest: 578242e9a33148e49fedf7fa03bf6b3fc11ef91f78e5e88c0ce398b8828acd25
     keywords:
@@ -6656,7 +6680,7 @@ entries:
     version: 1.0.0-rc29
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:48.802598757Z"
+    created: "2020-04-09T15:18:24.281207796Z"
     description: Tekton chart
     digest: a2dbdf0a940753768865d68ee11b9650e046ebbc1641465a76700bf7e94ea30e
     keywords:
@@ -6682,7 +6706,7 @@ entries:
   odahu-ui:
   - apiVersion: v1
     appVersion: 1.2.0-rc2
-    created: "2020-04-09T15:05:48.841178641Z"
+    created: "2020-04-09T15:18:24.318992919Z"
     description: Odahu UI
     digest: ca0120d5650bc0491067d1deef525394227f94e3961c1f0dda2f06b27d37aac5
     keywords:
@@ -6706,7 +6730,7 @@ entries:
     version: 1.2.0-rc2
   - apiVersion: v1
     appVersion: 1.2.0-rc1
-    created: "2020-04-09T15:05:48.840160478Z"
+    created: "2020-04-09T15:18:24.318400995Z"
     description: Odahu UI
     digest: 1c93e51096292b4c8b58b549b99fa71a047499b46716364ce905f899c61524ad
     keywords:
@@ -6730,7 +6754,7 @@ entries:
     version: 1.2.0-rc1
   - apiVersion: v1
     appVersion: 1.1.2
-    created: "2020-04-09T15:05:48.839144775Z"
+    created: "2020-04-09T15:18:24.317766057Z"
     description: Odahu UI
     digest: 59bf0de74b797a4caa8ffd488ff0402737d11e98c779e1127a866e4261ba1563
     keywords:
@@ -6754,7 +6778,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: 1.1.1
-    created: "2020-04-09T15:05:48.838116969Z"
+    created: "2020-04-09T15:18:24.317110196Z"
     description: Odahu UI
     digest: b50524e32696f85a65ce662bf394653e7808081b47d719d69f8cdb5b74cee305
     keywords:
@@ -6778,7 +6802,7 @@ entries:
     version: 1.1.1
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2020-04-09T15:05:48.837091919Z"
+    created: "2020-04-09T15:18:24.316496544Z"
     description: Odahu UI
     digest: 96ce3c08620990f15d90c0860efff466eaec654fe6311bd972d420e6bd3e560b
     keywords:
@@ -6802,7 +6826,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.1.0-rc15
-    created: "2020-04-09T15:05:48.836079189Z"
+    created: "2020-04-09T15:18:24.31590296Z"
     description: Odahu UI
     digest: e2957122b05c2a6df0bdcd726b7841957d969dfb501d9f7269be5bdb9fed7cb1
     keywords:
@@ -6826,7 +6850,7 @@ entries:
     version: 1.1.0-rc15
   - apiVersion: v1
     appVersion: 1.1.0-rc14
-    created: "2020-04-09T15:05:48.835067595Z"
+    created: "2020-04-09T15:18:24.315300797Z"
     description: Odahu UI
     digest: a5a0bd1d38033c513791b687e4e018492aabb1abe021b9b22cab474d1009921b
     keywords:
@@ -6850,7 +6874,7 @@ entries:
     version: 1.1.0-rc14
   - apiVersion: v1
     appVersion: 1.1.0-rc13
-    created: "2020-04-09T15:05:48.833490855Z"
+    created: "2020-04-09T15:18:24.314597081Z"
     description: Odahu UI
     digest: 559d9ae4881b0b968c1de82501ee8bc0ac4672989346dc6e1eba749547d0f4ac
     keywords:
@@ -6874,7 +6898,7 @@ entries:
     version: 1.1.0-rc13
   - apiVersion: v1
     appVersion: 1.1.0-rc12
-    created: "2020-04-09T15:05:48.832609133Z"
+    created: "2020-04-09T15:18:24.313666312Z"
     description: Odahu UI
     digest: 7dc3a5537ba0b0882c6f07d2dfb31fbb62080e562aa7f9c463462e269cef6e58
     keywords:
@@ -6898,7 +6922,7 @@ entries:
     version: 1.1.0-rc12
   - apiVersion: v1
     appVersion: 1.1.0-rc11
-    created: "2020-04-09T15:05:48.831752346Z"
+    created: "2020-04-09T15:18:24.312651511Z"
     description: Odahu UI
     digest: 1b4136863c5c291c9e4bc7a80337d772d39af14e8967416dace49dc7be044d64
     keywords:
@@ -6922,7 +6946,7 @@ entries:
     version: 1.1.0-rc11
   - apiVersion: v1
     appVersion: 1.1.0-rc10
-    created: "2020-04-09T15:05:48.830798985Z"
+    created: "2020-04-09T15:18:24.311691075Z"
     description: Odahu UI
     digest: e7641a51245d3af1e59e9b0dc590431edf9db319a7b2e28234c682e2b921d234
     keywords:
@@ -6947,7 +6971,7 @@ entries:
   odahuflow:
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.84565288Z"
+    created: "2020-04-09T15:18:24.323416833Z"
     description: OdahuFlow stack
     digest: dad92e160a314dd5f8d6f15251d8d3a8c27cfb67ebc94166a9da339b0e276fb7
     keywords:
@@ -6972,7 +6996,7 @@ entries:
   odahuflow-jupyterlab:
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.846598459Z"
+    created: "2020-04-09T15:18:24.324125953Z"
     description: Legion stack
     digest: 16fc056f64f64fbc82897ebe148d4a660ce0f04692708dcd6708363b8dcafd89
     keywords:
@@ -6997,7 +7021,7 @@ entries:
   odahuflow-mlflow:
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2020-04-09T15:05:48.847677123Z"
+    created: "2020-04-09T15:18:24.324810499Z"
     description: MLFlow integration for odahuflow platform
     digest: c32551f502195f400f77cb81f484ebf52ee6d3c380f04d1c4f704e801d5b7c4d
     keywords:
@@ -7023,7 +7047,7 @@ entries:
   odahuflow-rest-packager:
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2020-04-09T15:05:48.848388823Z"
+    created: "2020-04-09T15:18:24.325349427Z"
     description: Legion stack
     digest: dc9f958ffacb07471303298041e36899f2e37bc8c8392fd1bdf003b0873c8893
     keywords:
@@ -7048,7 +7072,7 @@ entries:
   tekton:
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2020-04-09T15:05:48.849408463Z"
+    created: "2020-04-09T15:18:24.32606974Z"
     description: Tekton chart
     digest: b9e5c8b28520358e889818e950ad9b276b560759a3f5e11c49037a5f774099e5
     keywords:
@@ -7071,4 +7095,4 @@ entries:
     urls:
     - tekton/tekton-1.0.0-rc27.tgz
     version: 1.0.0-rc27
-generated: "2020-04-09T15:05:47.571294601Z"
+generated: "2020-04-09T15:18:23.023095418Z"
